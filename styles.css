@@ -28,7 +28,8 @@ body {
 }
 
 button,
-a {
+a,
+select {
   font: inherit;
 }
 
@@ -165,6 +166,48 @@ blockquote {
   font-weight: 700;
 }
 
+.top-actions {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 10px;
+}
+
+.timeline-control {
+  min-height: 40px;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 0 10px 0 12px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  color: var(--muted);
+  background: white;
+}
+
+.timeline-control span {
+  font-size: 0.78rem;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.timeline-control select {
+  border: 0;
+  color: var(--ink);
+  font-weight: 800;
+  background: transparent;
+  cursor: pointer;
+}
+
+.timeline-control select:focus-visible,
+.chart-button:focus-visible,
+.refresh-button:focus-visible,
+.close-button:focus-visible,
+.detail-tabs button:focus-visible {
+  outline: 3px solid rgba(15, 118, 110, 0.28);
+  outline-offset: 2px;
+}
+
 .status-dot {
   width: 10px;
   height: 10px;
@@ -296,6 +339,18 @@ blockquote {
   overflow: hidden;
 }
 
+.chart-button {
+  display: block;
+  width: 100%;
+  padding: 0;
+  border: 0;
+  cursor: pointer;
+}
+
+.chart-button:hover::after {
+  filter: brightness(0.9);
+}
+
 .sparkline::after,
 .mini-chart::after {
   content: "";
@@ -303,6 +358,18 @@ blockquote {
   inset: 10px 8px;
   background: var(--green);
   clip-path: var(--points);
+}
+
+.sparkline.negative,
+.mini-chart.negative {
+  background:
+    linear-gradient(to top, rgba(180, 71, 54, 0.08), transparent),
+    linear-gradient(to right, rgba(23, 32, 27, 0.06) 1px, transparent 1px) 0 0 / 25% 100%;
+}
+
+.sparkline.negative::after,
+.mini-chart.negative::after {
+  background: var(--red);
 }
 
 .card-note {
@@ -338,6 +405,153 @@ blockquote {
   background: linear-gradient(90deg, rgba(255, 255, 255, 0.42), rgba(255, 255, 255, 0.86), rgba(255, 255, 255, 0.42));
   background-size: 220% 100%;
   animation: shimmer 1.3s infinite;
+}
+
+.detail-dialog {
+  width: min(760px, calc(100% - 28px));
+  padding: 0;
+  border: 0;
+  border-radius: 8px;
+  color: var(--ink);
+  background: transparent;
+}
+
+.detail-dialog::backdrop {
+  background: rgba(12, 20, 16, 0.48);
+  backdrop-filter: blur(4px);
+}
+
+.detail-panel {
+  padding: 22px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--paper);
+  box-shadow: var(--shadow);
+}
+
+.detail-top {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 18px;
+  margin-bottom: 18px;
+}
+
+.detail-top .eyebrow {
+  color: var(--teal);
+}
+
+.detail-top h2 {
+  margin-bottom: 0;
+  font-size: clamp(1.55rem, 4vw, 2.25rem);
+  line-height: 1.08;
+}
+
+.close-button {
+  width: 38px;
+  height: 38px;
+  flex: 0 0 auto;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  color: var(--ink);
+  font-size: 1.4rem;
+  line-height: 1;
+  background: white;
+  cursor: pointer;
+}
+
+.detail-tabs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 16px;
+}
+
+.detail-tabs button {
+  min-height: 36px;
+  padding: 0 12px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  color: var(--muted);
+  font-weight: 800;
+  background: white;
+  cursor: pointer;
+}
+
+.detail-tabs button.active {
+  color: white;
+  border-color: var(--ink);
+  background: var(--ink);
+}
+
+.detail-chart {
+  height: 260px;
+  padding: 16px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background:
+    linear-gradient(to top, rgba(22, 122, 74, 0.07), transparent),
+    linear-gradient(to right, rgba(23, 32, 27, 0.06) 1px, transparent 1px) 0 0 / 20% 100%;
+}
+
+.detail-chart svg {
+  width: 100%;
+  height: 100%;
+  overflow: visible;
+}
+
+.chart-area {
+  fill: rgba(22, 122, 74, 0.13);
+  stroke: none;
+}
+
+.chart-line {
+  fill: none;
+  stroke: var(--green);
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: 3;
+  vector-effect: non-scaling-stroke;
+}
+
+.detail-chart.negative {
+  background:
+    linear-gradient(to top, rgba(180, 71, 54, 0.07), transparent),
+    linear-gradient(to right, rgba(23, 32, 27, 0.06) 1px, transparent 1px) 0 0 / 20% 100%;
+}
+
+.detail-chart.negative .chart-area {
+  fill: rgba(180, 71, 54, 0.13);
+}
+
+.detail-chart.negative .chart-line {
+  stroke: var(--red);
+}
+
+.detail-stats {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 14px;
+}
+
+.detail-stats span {
+  padding: 8px 10px;
+  border-radius: 999px;
+  color: var(--green);
+  font-size: 0.9rem;
+  font-weight: 800;
+  background: rgba(22, 122, 74, 0.11);
+}
+
+.detail-stats span:last-child {
+  color: var(--muted);
+  background: rgba(23, 32, 27, 0.06);
+}
+
+.detail-stats span.negative {
+  color: var(--red);
+  background: rgba(180, 71, 54, 0.1);
 }
 
 @keyframes shimmer {
@@ -451,6 +665,22 @@ blockquote {
     justify-content: center;
   }
 
+  .top-actions {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .timeline-control {
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  .timeline-control select {
+    min-width: 112px;
+    text-align: right;
+  }
+
   .section-heading {
     margin: 0 0 12px;
   }
@@ -532,6 +762,24 @@ blockquote {
   .trend-label {
     grid-column: 1;
     font-size: 0.78rem;
+  }
+
+  .detail-panel {
+    padding: 16px;
+  }
+
+  .detail-top {
+    gap: 12px;
+  }
+
+  .detail-chart {
+    height: 210px;
+    padding: 12px;
+  }
+
+  .detail-stats span {
+    width: 100%;
+    border-radius: 8px;
   }
 }
 

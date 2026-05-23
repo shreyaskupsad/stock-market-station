@@ -70,6 +70,12 @@ const indices = [
   ["^CNXAUTO", "Nifty Auto", "Mobility and manufacturing"]
 ];
 
+const timeframeDays = {
+  "1w": 6,
+  "2w": 11,
+  "4w": 18
+};
+
 const fallbackStocks = [
   { symbol: "BEL.NS", name: "Bharat Electronics", sector: "Defence", changePct: 18.4, startPrice: 274, endPrice: 324, points: [40, 43, 44, 47, 50, 54, 58, 61, 66, 71, 76, 82] },
   { symbol: "TRENT.NS", name: "Trent", sector: "Retail", changePct: 15.8, startPrice: 5320, endPrice: 6161, points: [38, 41, 45, 44, 49, 52, 55, 59, 63, 65, 69, 74] },
@@ -190,7 +196,7 @@ async function loadChart(symbol) {
 }
 
 function normalizePoints(values) {
-  const sample = values.slice(-18);
+  const sample = values;
   const min = Math.min(...sample);
   const max = Math.max(...sample);
   if (max === min) {
@@ -199,18 +205,48 @@ function normalizePoints(values) {
   return sample.map((value) => Math.round(18 + ((value - min) / (max - min)) * 64));
 }
 
+function metricFromValues(values) {
+  const startPrice = values[0];
+  const endPrice = values[values.length - 1];
+  return {
+    changePct: Number((((endPrice - startPrice) / startPrice) * 100).toFixed(2)),
+    startPrice: Number(startPrice.toFixed(2)),
+    endPrice: Number(endPrice.toFixed(2)),
+    points: normalizePoints(values)
+  };
+}
+
+function timelinesFromCloses(closes) {
+  return Object.fromEntries(
+    Object.entries(timeframeDays).map(([key, days]) => {
+      const values = closes.slice(-days);
+      return [key, metricFromValues(values.length >= 2 ? values : closes)];
+    })
+  );
+}
+
 function movementFromCloses(closes, meta) {
-  const startPrice = closes[0];
-  const endPrice = closes[closes.length - 1];
+  const timelines = timelinesFromCloses(closes);
   return {
     symbol: meta[0],
     name: meta[1],
     sector: meta[2],
     role: meta[2],
-    changePct: Number((((endPrice - startPrice) / startPrice) * 100).toFixed(2)),
-    startPrice: Number(startPrice.toFixed(2)),
-    endPrice: Number(endPrice.toFixed(2)),
-    points: normalizePoints(closes)
+    timelines,
+    ...timelines["4w"]
+  };
+}
+
+function fallbackTimelines(item) {
+  const values = item.points.map((point, index) => item.startPrice
+    ? item.startPrice + ((item.endPrice - item.startPrice) * index) / Math.max(item.points.length - 1, 1)
+    : point);
+  const timelines = timelinesFromCloses(values);
+  return {
+    ...item,
+    role: item.role || item.sector,
+    timelines,
+    ...timelines["4w"]
   };
 }
 
@@ -226,8 +262,7 @@ async function loadMarket(forceRefresh = false) {
     const stocks = stockResults
       .filter((result) => result.status === "fulfilled")
       .map((result) => result.value)
-      .sort((a, b) => b.changePct - a.changePct)
-      .slice(0, 5);
+      .sort((a, b) => b.timelines["4w"].changePct - a.timelines["4w"].changePct);
 
     const liveIndices = indexResults
       .filter((result) => result.status === "fulfilled")
@@ -236,8 +271,8 @@ async function loadMarket(forceRefresh = false) {
     return {
       source: stocks.length >= 5 && liveIndices.length >= 5 ? "live" : "fallback",
       updatedAt: new Date().toISOString(),
-      stocks: stocks.length >= 5 ? stocks : fallbackStocks,
-      indices: liveIndices.length >= 5 ? liveIndices : fallbackIndices
+      stocks: stocks.length >= 5 ? stocks : fallbackStocks.map(fallbackTimelines),
+      indices: liveIndices.length >= 5 ? liveIndices : fallbackIndices.map(fallbackTimelines)
     };
   }, forceRefresh);
 }

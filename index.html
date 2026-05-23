@@ -40,16 +40,26 @@
           <span class="status-dot"></span>
           <span id="dataStatus">Connecting to public market data</span>
         </div>
-        <button class="refresh-button" id="refreshButton" type="button" aria-label="Refresh market data">
-          <span aria-hidden="true">↻</span>
-          Refresh
-        </button>
+        <div class="top-actions">
+          <label class="timeline-control" for="timelineSelect">
+            <span>Timeline</span>
+            <select id="timelineSelect">
+              <option value="4w">4 weeks</option>
+              <option value="2w">2 weeks</option>
+              <option value="1w">1 week</option>
+            </select>
+          </label>
+          <button class="refresh-button" id="refreshButton" type="button" aria-label="Refresh market data">
+            <span aria-hidden="true">↻</span>
+            Refresh
+          </button>
+        </div>
       </section>
 
       <section class="content-grid">
         <section class="market-section" aria-labelledby="stocks-title">
           <div class="section-heading">
-            <p class="eyebrow">Last 4 weeks</p>
+            <p class="eyebrow" id="stocksWindowLabel">Last 4 weeks</p>
             <h2 id="stocks-title">Stocks with strong recent growth</h2>
           </div>
           <div class="stock-list" id="stockList"></div>
@@ -75,7 +85,7 @@
           </div>
           <div class="change-pill"></div>
         </div>
-        <div class="sparkline" aria-hidden="true"></div>
+        <button class="sparkline chart-button" type="button"></button>
         <div class="card-note"></div>
       </article>
     </template>
@@ -86,10 +96,28 @@
           <h3></h3>
           <p></p>
         </div>
-        <div class="mini-chart" aria-hidden="true"></div>
+        <button class="mini-chart chart-button" type="button"></button>
         <div class="trend-label"></div>
       </article>
     </template>
+
+    <dialog class="detail-dialog" id="detailDialog">
+      <article class="detail-panel">
+        <div class="detail-top">
+          <div>
+            <p class="eyebrow" id="detailMeta">Stock view</p>
+            <h2 id="detailTitle">Market detail</h2>
+          </div>
+          <button class="close-button" id="closeDetail" type="button" aria-label="Close detail view">×</button>
+        </div>
+        <div class="detail-tabs" id="detailTabs" aria-label="Detail timeline"></div>
+        <div class="detail-chart" id="detailChart"></div>
+        <div class="detail-stats">
+          <span id="detailChange"></span>
+          <span id="detailPrices"></span>
+        </div>
+      </article>
+    </dialog>
 
     <script src="app.js"></script>
   </body>
