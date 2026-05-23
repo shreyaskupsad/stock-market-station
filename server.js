@@ -160,9 +160,9 @@ function requestText(url) {
   });
 }
 
-async function cached(key, loader) {
+async function cached(key, loader, forceRefresh = false) {
   const hit = cache.get(key);
-  if (hit && Date.now() - hit.savedAt < CACHE_TTL_MS) {
+  if (!forceRefresh && hit && Date.now() - hit.savedAt < CACHE_TTL_MS) {
     return hit.value;
   }
   const value = await loader();
@@ -214,7 +214,7 @@ function movementFromCloses(closes, meta) {
   };
 }
 
-async function loadMarket() {
+async function loadMarket(forceRefresh = false) {
   return cached("market", async () => {
     const stockResults = await Promise.allSettled(
       stockUniverse.map(async (stock) => movementFromCloses(await loadChart(stock[0]), stock))
@@ -239,7 +239,7 @@ async function loadMarket() {
       stocks: stocks.length >= 5 ? stocks : fallbackStocks,
       indices: liveIndices.length >= 5 ? liveIndices : fallbackIndices
     };
-  });
+  }, forceRefresh);
 }
 
 function formatGdeltDate(date) {
@@ -338,7 +338,7 @@ async function loadRssLesson() {
   };
 }
 
-async function loadLesson() {
+async function loadLesson(forceRefresh = false) {
   const key = `lesson-${new Date().toISOString().slice(0, 10)}`;
   return cached(key, async () => {
     const { start, end } = yesterdayWindow();
@@ -359,7 +359,7 @@ async function loadLesson() {
       lesson:
         "Use yesterday's market news as a question, not an instruction. Ask what changed, whether it is temporary, and whether the price has already reacted before you act."
     };
-  });
+  }, forceRefresh);
 }
 
 function sendJson(res, status, payload) {
@@ -399,12 +399,14 @@ function serveStatic(req, res) {
 
 const server = http.createServer(async (req, res) => {
   try {
+    const requestUrl = new URL(req.url, `http://${req.headers.host}`);
+    const forceRefresh = requestUrl.searchParams.get("refresh") === "1";
     if (req.url.startsWith("/api/market")) {
-      sendJson(res, 200, await loadMarket());
+      sendJson(res, 200, await loadMarket(forceRefresh));
       return;
     }
     if (req.url.startsWith("/api/lesson")) {
-      sendJson(res, 200, await loadLesson());
+      sendJson(res, 200, await loadLesson(forceRefresh));
       return;
     }
     serveStatic(req, res);

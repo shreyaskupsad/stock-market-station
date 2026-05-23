@@ -81,9 +81,17 @@ function renderLesson(lesson) {
   lessonLink.href = lesson.url;
 }
 
-async function loadDashboard() {
+function withCacheBust(url, isManualRefresh) {
+  if (!isManualRefresh) {
+    return url;
+  }
+  const separator = url.includes("?") ? "&" : "?";
+  return `${url}${separator}refresh=1&t=${Date.now()}`;
+}
+
+async function loadDashboard(isManualRefresh = false) {
   refreshButton.disabled = true;
-  dataStatus.textContent = "Fetching India market data";
+  dataStatus.textContent = isManualRefresh ? "Refreshing India market data" : "Fetching India market data";
   setLoading();
 
   try {
@@ -91,8 +99,8 @@ async function loadDashboard() {
     const marketUrl = isLocalServer ? "/api/market" : "data/market.json";
     const lessonUrl = isLocalServer ? "/api/lesson" : "data/lesson.json";
     const [marketResponse, lessonResponse] = await Promise.all([
-      fetch(marketUrl),
-      fetch(lessonUrl)
+      fetch(withCacheBust(marketUrl, isManualRefresh), { cache: "no-store" }),
+      fetch(withCacheBust(lessonUrl, isManualRefresh), { cache: "no-store" })
     ]);
     const [market, lesson] = await Promise.all([marketResponse.json(), lessonResponse.json()]);
 
@@ -104,10 +112,15 @@ async function loadDashboard() {
       dateStyle: "medium",
       timeStyle: "short"
     });
+    const checkedTime = new Date().toLocaleTimeString("en-IN", {
+      hour: "numeric",
+      minute: "2-digit"
+    });
+    const refreshNote = isManualRefresh ? ` · checked ${checkedTime}` : "";
     dataStatus.textContent =
       market.source === "live"
-        ? `Live public data refreshed ${updateTime}`
-        : `Showing resilient sample data · live source was unavailable at ${updateTime}`;
+        ? `Live public data refreshed ${updateTime}${refreshNote}`
+        : `Showing resilient sample data · live source was unavailable at ${updateTime}${refreshNote}`;
   } catch (error) {
     dataStatus.textContent = "Unable to load data. Try refreshing in a moment.";
   } finally {
@@ -115,5 +128,5 @@ async function loadDashboard() {
   }
 }
 
-refreshButton.addEventListener("click", loadDashboard);
+refreshButton.addEventListener("click", () => loadDashboard(true));
 loadDashboard();
