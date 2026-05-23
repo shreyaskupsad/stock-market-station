@@ -1,0 +1,12 @@
+{
+  "name": "india-market-compass",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A calm beginner-friendly Indian stock market dashboard built with HTML, CSS and vanilla JavaScript.",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>India Market Compass</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="shell">
+      <section class="hero" aria-labelledby="page-title">
+        <div class="hero-copy">
+          <p class="eyebrow">India market view</p>
+          <h1 id="page-title">A calmer way to read momentum.</h1>
+          <p class="intro">
+            Five recent stock leaders, five broad indices, and one real-world lesson from yesterday,
+            shaped for beginner investors who want signal without the wall of numbers.
+          </p>
+        </div>
+        <aside class="lesson-panel" aria-labelledby="lesson-title">
+          <div class="panel-topline">
+            <span>Yesterday's lesson</span>
+            <a id="lessonLink" href="https://www.nseindia.com/" target="_blank" rel="noreferrer">Source</a>
+          </div>
+          <blockquote id="lessonQuote">Loading a fresh lesson...</blockquote>
+          <h2 id="lesson-title">Finding the market story</h2>
+          <p id="lessonText">Fetching yesterday's India-market example.</p>
+          <p class="lesson-source" id="lessonSource">Updating</p>
+        </aside>
+      </section>
+
+      <section class="status-row" aria-live="polite">
+        <div>
+          <span class="status-dot"></span>
+          <span id="dataStatus">Connecting to public market data</span>
+        </div>
+        <button class="refresh-button" id="refreshButton" type="button" aria-label="Refresh market data">
+          <span aria-hidden="true">↻</span>
+          Refresh
+        </button>
+      </section>
+
+      <section class="content-grid">
+        <section class="market-section" aria-labelledby="stocks-title">
+          <div class="section-heading">
+            <p class="eyebrow">Last 4 weeks</p>
+            <h2 id="stocks-title">Stocks with strong recent growth</h2>
+          </div>
+          <div class="stock-list" id="stockList"></div>
+        </section>
+
+        <section class="market-section" aria-labelledby="indices-title">
+          <div class="section-heading">
+            <p class="eyebrow">Broad context</p>
+            <h2 id="indices-title">Five indices to orient yourself</h2>
+          </div>
+          <div class="index-list" id="indexList"></div>
+        </section>
+      </section>
+    </main>
+
+    <template id="stockTemplate">
+      <article class="stock-card">
+        <div class="rank"></div>
+        <div class="stock-main">
+          <div>
+            <h3></h3>
+            <p></p>
+          </div>
+          <div class="change-pill"></div>
+        </div>
+        <div class="sparkline" aria-hidden="true"></div>
+        <div class="card-note"></div>
+      </article>
+    </template>
+
+    <template id="indexTemplate">
+      <article class="index-card">
+        <div>
+          <h3></h3>
+          <p></p>
+        </div>
+        <div class="mini-chart" aria-hidden="true"></div>
+        <div class="trend-label"></div>
+      </article>
+    </template>
+
+    <script src="app.js"></script>
+  </body>
+</html>
