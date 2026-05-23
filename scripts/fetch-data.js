@@ -66,6 +66,12 @@ const indices = [
   ["^CNXAUTO", "Nifty Auto", "Mobility and manufacturing"]
 ];
 
+const timeframeDays = {
+  "1w": 6,
+  "2w": 11,
+  "4w": 18
+};
+
 function request(url, parser = JSON.parse) {
   return new Promise((resolve, reject) => {
     const req = https.get(
@@ -113,7 +119,7 @@ async function loadChart(symbol) {
 }
 
 function normalizePoints(values) {
-  const sample = values.slice(-18);
+  const sample = values;
   const min = Math.min(...sample);
   const max = Math.max(...sample);
   if (max === min) {
@@ -122,18 +128,35 @@ function normalizePoints(values) {
   return sample.map((value) => Math.round(18 + ((value - min) / (max - min)) * 64));
 }
 
+function metricFromValues(values) {
+  const startPrice = values[0];
+  const endPrice = values[values.length - 1];
+  return {
+    changePct: Number((((endPrice - startPrice) / startPrice) * 100).toFixed(2)),
+    startPrice: Number(startPrice.toFixed(2)),
+    endPrice: Number(endPrice.toFixed(2)),
+    points: normalizePoints(values)
+  };
+}
+
+function timelinesFromCloses(closes) {
+  return Object.fromEntries(
+    Object.entries(timeframeDays).map(([key, days]) => {
+      const values = closes.slice(-days);
+      return [key, metricFromValues(values.length >= 2 ? values : closes)];
+    })
+  );
+}
+
 function movementFromCloses(closes, meta) {
-  const startPrice = closes[0];
-  const endPrice = closes[closes.length - 1];
+  const timelines = timelinesFromCloses(closes);
   return {
     symbol: meta[0],
     name: meta[1],
     sector: meta[2],
     role: meta[2],
-    changePct: Number((((endPrice - startPrice) / startPrice) * 100).toFixed(2)),
-    startPrice: Number(startPrice.toFixed(2)),
-    endPrice: Number(endPrice.toFixed(2)),
-    points: normalizePoints(closes)
+    timelines,
+    ...timelines["4w"]
   };
 }
 
@@ -171,8 +194,7 @@ async function buildMarket() {
   const stocks = stockResults
     .filter((result) => result.status === "fulfilled")
     .map((result) => result.value)
-    .sort((a, b) => b.changePct - a.changePct)
-    .slice(0, 5);
+    .sort((a, b) => b.timelines["4w"].changePct - a.timelines["4w"].changePct);
   const indexData = indexResults
     .filter((result) => result.status === "fulfilled")
     .map((result) => result.value);
