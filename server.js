@@ -6,6 +6,8 @@ const { URL } = require("url");
 
 const PORT = process.env.PORT || 3000;
 const PUBLIC_DIR = __dirname;
+const DATA_DIR = path.join(__dirname, "data");
+const LESSON_HISTORY_FILE = path.join(DATA_DIR, "lessons-history.json");
 const CACHE_TTL_MS = 1000 * 60 * 20;
 
 const stockUniverse = [
@@ -304,6 +306,44 @@ function fallbackLesson() {
   };
 }
 
+function lessonHistoryKey(lesson) {
+  return new Date(lesson.date || Date.now()).toISOString().slice(0, 10);
+}
+
+function readLessonHistory() {
+  try {
+    return JSON.parse(fs.readFileSync(LESSON_HISTORY_FILE, "utf8"));
+  } catch (error) {
+    return { updatedAt: null, lessons: [] };
+  }
+}
+
+function saveLessonHistory(lesson) {
+  fs.mkdirSync(DATA_DIR, { recursive: true });
+  const history = readLessonHistory();
+  const key = lessonHistoryKey(lesson);
+  const entry = {
+    ...lesson,
+    lessonDate: key,
+    savedAt: new Date().toISOString()
+  };
+  const existingIndex = history.lessons.findIndex((item) => item.lessonDate === key);
+
+  if (existingIndex >= 0) {
+    history.lessons[existingIndex] = {
+      ...history.lessons[existingIndex],
+      ...entry
+    };
+  } else {
+    history.lessons.push(entry);
+  }
+
+  history.updatedAt = entry.savedAt;
+  history.lessons.sort((a, b) => b.lessonDate.localeCompare(a.lessonDate));
+  fs.writeFileSync(LESSON_HISTORY_FILE, `${JSON.stringify(history, null, 2)}\n`);
+  return entry;
+}
+
 function decodeXml(value = "") {
   return value
     .replace(/<!\[CDATA\[(.*?)\]\]>/gs, "$1")
@@ -384,7 +424,7 @@ async function loadLesson(forceRefresh = false) {
       article = await loadRssLesson();
     }
 
-    return {
+    const lesson = {
       source: "live",
       title: cleanHeadline(article.title),
       outlet: article.outlet || article.domain || "Indian market news",
@@ -394,6 +434,8 @@ async function loadLesson(forceRefresh = false) {
       lesson:
         "Use yesterday's market news as a question, not an instruction. Ask what changed, whether it is temporary, and whether the price has already reacted before you act."
     };
+    saveLessonHistory(lesson);
+    return lesson;
   }, forceRefresh);
 }
 
@@ -438,6 +480,10 @@ const server = http.createServer(async (req, res) => {
     const forceRefresh = requestUrl.searchParams.get("refresh") === "1";
     if (req.url.startsWith("/api/market")) {
       sendJson(res, 200, await loadMarket(forceRefresh));
+      return;
+    }
+    if (req.url.startsWith("/api/lessons/history")) {
+      sendJson(res, 200, readLessonHistory());
       return;
     }
     if (req.url.startsWith("/api/lesson")) {

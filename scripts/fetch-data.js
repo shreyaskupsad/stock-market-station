@@ -3,6 +3,7 @@ const path = require("path");
 const https = require("https");
 
 const dataDir = path.join(__dirname, "..", "data");
+const lessonHistoryFile = path.join(dataDir, "lessons-history.json");
 
 const stockUniverse = [
   ["ADANIENT.NS", "Adani Enterprises", "Infrastructure"],
@@ -184,6 +185,43 @@ function tagValue(xml, tag) {
   return match ? decodeXml(match[1]) : "";
 }
 
+function lessonHistoryKey(lesson) {
+  return new Date(lesson.date || Date.now()).toISOString().slice(0, 10);
+}
+
+function readLessonHistory() {
+  try {
+    return JSON.parse(fs.readFileSync(lessonHistoryFile, "utf8"));
+  } catch (error) {
+    return { updatedAt: null, lessons: [] };
+  }
+}
+
+function saveLessonHistory(lesson) {
+  const history = readLessonHistory();
+  const key = lessonHistoryKey(lesson);
+  const entry = {
+    ...lesson,
+    lessonDate: key,
+    savedAt: new Date().toISOString()
+  };
+  const existingIndex = history.lessons.findIndex((item) => item.lessonDate === key);
+
+  if (existingIndex >= 0) {
+    history.lessons[existingIndex] = {
+      ...history.lessons[existingIndex],
+      ...entry
+    };
+  } else {
+    history.lessons.push(entry);
+  }
+
+  history.updatedAt = entry.savedAt;
+  history.lessons.sort((a, b) => b.lessonDate.localeCompare(a.lessonDate));
+  fs.writeFileSync(lessonHistoryFile, `${JSON.stringify(history, null, 2)}\n`);
+  return entry;
+}
+
 async function buildMarket() {
   const stockResults = await Promise.allSettled(
     stockUniverse.map(async (stock) => movementFromCloses(await loadChart(stock[0]), stock))
@@ -238,9 +276,10 @@ async function buildLesson() {
 async function main() {
   fs.mkdirSync(dataDir, { recursive: true });
   const [market, lesson] = await Promise.all([buildMarket(), buildLesson()]);
+  saveLessonHistory(lesson);
   fs.writeFileSync(path.join(dataDir, "market.json"), `${JSON.stringify(market, null, 2)}\n`);
   fs.writeFileSync(path.join(dataDir, "lesson.json"), `${JSON.stringify(lesson, null, 2)}\n`);
-  console.log("Wrote data/market.json and data/lesson.json");
+  console.log("Wrote data/market.json, data/lesson.json, and data/lessons-history.json");
 }
 
 main().catch((error) => {
