@@ -1,6 +1,17 @@
 {
-  "updatedAt": "2026-06-19T08:43:12.705Z",
+  "updatedAt": "2026-06-20T07:10:44.063Z",
   "lessons": [
+    {
+      "source": "live",
+      "title": "Weekly Market Wrap: NIFTY50, SENSEX rise 2%, SMIDs shine, Nifty India Defence jumps nearly 7%; Trent tops list",
+      "outlet": "Upstox",
+      "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxNM3BCRmM0cWJiTXJQeUNISmJ2X0xHbnp3Z2tKcUVvSm9IbUpFODdlQjJTaGV5ZFd0R1g4SzZrNlJGcjU1NGV5eTd3SGlFNHFxMlVLRW82bTFrVUQtRjFPbEl3azhHZWNFZkJVN0pfOUFWdzVKVTB1cFk1Qlo5VXpKRzl4ZE5FbDdyY2lkQkE3YzBSMi1kQjdmSWtyNWRJVUdnRHRKamhwLWI4LVdfYmFRcmgyY21qOHFKeWhYS3phYjI5SmpFeTEzaVJ2UnhtSUxhUUNNVHFvN1J0T1dLOGhpWThXMEhXQ21tbjR0RkdOOThDQU5fb3FN?oc=5",
+      "date": "Sat, 20 Jun 2026 04:05:54 GMT",
+      "quote": "The lesson is rarely in the noise; it is in what the market chose to reprice.",
+      "lesson": "Use yesterday's market news as a question, not an instruction. Ask what changed, whether it is temporary, and whether the price has already reacted before you act.",
+      "lessonDate": "2026-06-20",
+      "savedAt": "2026-06-20T07:10:44.063Z"
+    },
     {
       "source": "live",
       "title": "India shares drop as IT declines on Accenture shock",
