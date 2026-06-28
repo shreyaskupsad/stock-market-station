@@ -1,6 +1,6 @@
 {
   "source": "live",
-  "updatedAt": "2026-06-27T06:40:30.637Z",
+  "updatedAt": "2026-06-28T07:12:25.690Z",
   "stocks": [
     {
       "symbol": "TRENT.NS",
@@ -4709,45 +4709,41 @@
       "role": "Mobility and manufacturing",
       "timelines": {
         "1w": {
-          "changePct": 1.1,
-          "startPrice": 26293.85,
-          "endPrice": 26583.35,
+          "changePct": 0.86,
+          "startPrice": 26746.4,
+          "endPrice": 26977.75,
           "points": [
+            57,
+            39,
+            52,
+            30,
             18,
-            82,
-            74,
-            58,
-            60,
-            45
+            82
           ]
         },
         "2w": {
-          "changePct": 1.6,
-          "startPrice": 26165.95,
-          "endPrice": 26583.35,
+          "changePct": 4.6,
+          "startPrice": 25790.35,
+          "endPrice": 26977.75,
           "points": [
-            42,
             18,
-            35,
-            25,
-            23,
-            48,
+            45,
             82,
-            78,
-            69,
-            71,
-            63
+            77,
+            68,
+            70,
+            61,
+            67,
+            56,
+            50,
+            82
           ]
         },
         "4w": {
-          "changePct": 0.39,
-          "startPrice": 26480.5,
-          "endPrice": 26583.35,
+          "changePct": 3.44,
+          "startPrice": 26079.45,
+          "endPrice": 26977.75,
           "points": [
-            57,
-            76,
-            50,
-            28,
             38,
             38,
             41,
@@ -4761,18 +4757,18 @@
             78,
             69,
             71,
-            63
+            63,
+            68,
+            58,
+            53,
+            82
           ]
         }
       },
-      "changePct": 0.39,
-      "startPrice": 26480.5,
-      "endPrice": 26583.35,
+      "changePct": 3.44,
+      "startPrice": 26079.45,
+      "endPrice": 26977.75,
       "points": [
-        57,
-        76,
-        50,
-        28,
         38,
         38,
         41,
@@ -4786,7 +4782,11 @@
         78,
         69,
         71,
-        63
+        63,
+        68,
+        58,
+        53,
+        82
       ]
     }
   ]
