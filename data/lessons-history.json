@@ -1,6 +1,17 @@
 {
-  "updatedAt": "2026-07-12T06:16:04.984Z",
+  "updatedAt": "2026-07-13T06:35:36.740Z",
   "lessons": [
+    {
+      "source": "live",
+      "title": "India’s Capital Markets Brace for Blockbuster NSE IPO",
+      "outlet": "Global Finance Magazine",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQV19ZLTJlMlREd2E0UF9LQldjb3VPb3Z4S09hNnhjSkVxT01EbU5jbXQwSFU1ODcxeThLcTVyU2dTWVhGUE4taXBDMkRmM01TQkZKdklTbnUzYm9iVGNHY0hSMWtXbFBIbDdJTFhzdm03bTdmbjdsMS1pcjNSN1dvLU9oMXo3QXVYX2dGeWpPeVRrdFVVcjdUYkM4QXExcEpIRjk3aGU4SUQ?oc=5",
+      "date": "Mon, 13 Jul 2026 06:00:00 GMT",
+      "quote": "The lesson is rarely in the noise; it is in what the market chose to reprice.",
+      "lesson": "Use yesterday's market news as a question, not an instruction. Ask what changed, whether it is temporary, and whether the price has already reacted before you act.",
+      "lessonDate": "2026-07-13",
+      "savedAt": "2026-07-13T06:35:36.740Z"
+    },
     {
       "source": "live",
       "title": "Indian stock market: How are Sensex and Nifty 50 likely to perform next week amid ongoing US-Iran war?",
