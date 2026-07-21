@@ -1,6 +1,6 @@
 {
   "source": "live",
-  "updatedAt": "2026-07-20T06:29:45.385Z",
+  "updatedAt": "2026-07-21T06:09:21.906Z",
   "stocks": [
     {
       "symbol": "INDUSINDBK.NS",
@@ -9,84 +9,84 @@
       "role": "Banking",
       "timelines": {
         "1w": {
-          "changePct": 1.31,
+          "changePct": 4.49,
           "startPrice": 1012.9,
-          "endPrice": 1026.15,
+          "endPrice": 1058.4,
           "points": [
-            51,
+            34,
             18,
-            44,
-            53,
-            82,
-            80
+            31,
+            35,
+            49,
+            82
           ]
         },
         "2w": {
-          "changePct": 1.62,
+          "changePct": 4.81,
           "startPrice": 1009.8,
-          "endPrice": 1026.15,
+          "endPrice": 1058.4,
           "points": [
-            48,
-            72,
+            33,
+            46,
             18,
-            58,
-            60,
-            54,
-            23,
-            48,
-            55,
-            82,
-            80
+            39,
+            39,
+            36,
+            21,
+            33,
+            37,
+            51,
+            82
           ]
         },
         "4w": {
-          "changePct": 11.67,
+          "changePct": 15.17,
           "startPrice": 918.95,
-          "endPrice": 1026.15,
+          "endPrice": 1058.4,
           "points": [
             20,
             20,
             18,
-            23,
-            33,
-            34,
-            52,
-            72,
-            79,
+            22,
+            30,
+            31,
+            44,
+            60,
+            66,
+            53,
             63,
-            75,
-            75,
-            74,
-            65,
-            72,
-            74,
-            82,
-            81
+            63,
+            62,
+            55,
+            60,
+            62,
+            68,
+            82
           ]
         }
       },
-      "changePct": 11.67,
+      "changePct": 15.17,
       "startPrice": 918.95,
-      "endPrice": 1026.15,
+      "endPrice": 1058.4,
       "points": [
         20,
         20,
         18,
-        23,
-        33,
-        34,
-        52,
-        72,
-        79,
+        22,
+        30,
+        31,
+        44,
+        60,
+        66,
+        53,
         63,
-        75,
-        75,
-        74,
-        65,
-        72,
-        74,
-        82,
-        81
+        63,
+        62,
+        55,
+        60,
+        62,
+        68,
+        82
       ]
     },
     {
@@ -96,84 +96,84 @@
       "role": "IT",
       "timelines": {
         "1w": {
-          "changePct": -0.65,
-          "startPrice": 1221.2,
-          "endPrice": 1213.3,
+          "changePct": 5.5,
+          "startPrice": 1166.7,
+          "endPrice": 1230.9,
           "points": [
-            82,
             18,
-            20,
-            42,
-            62,
-            73
+            19,
+            39,
+            55,
+            72,
+            82
           ]
         },
         "2w": {
-          "changePct": 6.97,
-          "startPrice": 1134.2,
-          "endPrice": 1213.3,
+          "changePct": 5.37,
+          "startPrice": 1168.2,
+          "endPrice": 1230.9,
           "points": [
+            35,
             18,
-            43,
-            26,
-            30,
-            40,
-            82,
-            42,
-            43,
-            57,
-            69,
-            76
+            22,
+            32,
+            75,
+            34,
+            35,
+            49,
+            62,
+            75,
+            82
           ]
         },
         "4w": {
-          "changePct": 10.23,
+          "changePct": 11.83,
           "startPrice": 1100.7,
-          "endPrice": 1213.3,
+          "endPrice": 1230.9,
           "points": [
-            41,
-            41,
-            41,
-            31,
+            40,
+            40,
+            30,
             18,
-            33,
-            54,
+            32,
             52,
-            64,
-            56,
-            58,
+            51,
             62,
-            82,
-            63,
-            64,
-            70,
-            76,
-            79
+            54,
+            56,
+            60,
+            79,
+            61,
+            62,
+            68,
+            73,
+            79,
+            82
           ]
         }
       },
-      "changePct": 10.23,
+      "changePct": 11.83,
       "startPrice": 1100.7,
-      "endPrice": 1213.3,
+      "endPrice": 1230.9,
       "points": [
-        41,
-        41,
-        41,
-        31,
+        40,
+        40,
+        30,
         18,
-        33,
-        54,
+        32,
         52,
-        64,
-        56,
-        58,
+        51,
         62,
-        82,
-        63,
-        64,
-        70,
-        76,
-        79
+        54,
+        56,
+        60,
+        79,
+        61,
+        62,
+        68,
+        73,
+        79,
+        82
       ]
     },
     {
@@ -183,170 +183,83 @@
       "role": "IT",
       "timelines": {
         "1w": {
-          "changePct": 5.1,
+          "changePct": 5.39,
           "startPrice": 1504.5,
-          "endPrice": 1581.2,
+          "endPrice": 1585.6,
           "points": [
             31,
             18,
-            28,
-            35,
-            77,
+            27,
+            34,
+            74,
             82
           ]
         },
         "2w": {
-          "changePct": 12.42,
+          "changePct": 12.73,
           "startPrice": 1406.5,
-          "endPrice": 1581.2,
+          "endPrice": 1585.6,
           "points": [
             18,
             33,
             26,
             25,
-            36,
-            54,
-            47,
-            52,
-            56,
-            79,
+            35,
+            53,
+            46,
+            51,
+            55,
+            77,
             82
           ]
         },
         "4w": {
-          "changePct": 10.03,
+          "changePct": 10.33,
           "startPrice": 1437.1,
-          "endPrice": 1581.2,
+          "endPrice": 1585.6,
           "points": [
-            40,
-            40,
+            39,
+            39,
             39,
             30,
             18,
             35,
             32,
             31,
-            43,
+            42,
             37,
-            37,
+            36,
             45,
+            59,
+            53,
+            57,
             60,
-            54,
-            58,
-            61,
-            80,
+            78,
             82
           ]
         }
       },
-      "changePct": 10.03,
+      "changePct": 10.33,
       "startPrice": 1437.1,
-      "endPrice": 1581.2,
+      "endPrice": 1585.6,
       "points": [
-        40,
-        40,
+        39,
+        39,
         39,
         30,
         18,
         35,
         32,
         31,
-        43,
-        37,
-        37,
-        45,
-        60,
-        54,
-        58,
-        61,
-        80,
-        82
-      ]
-    },
-    {
-      "symbol": "DIVISLAB.NS",
-      "name": "Divi's Labs",
-      "sector": "Pharma",
-      "role": "Pharma",
-      "timelines": {
-        "1w": {
-          "changePct": 6.22,
-          "startPrice": 6938.5,
-          "endPrice": 7370,
-          "points": [
-            18,
-            55,
-            68,
-            74,
-            64,
-            82
-          ]
-        },
-        "2w": {
-          "changePct": 7.47,
-          "startPrice": 6857.5,
-          "endPrice": 7370,
-          "points": [
-            29,
-            20,
-            18,
-            24,
-            26,
-            37,
-            63,
-            72,
-            76,
-            69,
-            82
-          ]
-        },
-        "4w": {
-          "changePct": 9.78,
-          "startPrice": 6713.5,
-          "endPrice": 7370,
-          "points": [
-            31,
-            31,
-            19,
-            21,
-            18,
-            29,
-            34,
-            42,
-            36,
-            34,
-            39,
-            41,
-            49,
-            68,
-            74,
-            78,
-            72,
-            82
-          ]
-        }
-      },
-      "changePct": 9.78,
-      "startPrice": 6713.5,
-      "endPrice": 7370,
-      "points": [
-        31,
-        31,
-        19,
-        21,
-        18,
-        29,
-        34,
         42,
+        37,
         36,
-        34,
-        39,
-        41,
-        49,
-        68,
-        74,
+        45,
+        59,
+        53,
+        57,
+        60,
         78,
-        72,
         82
       ]
     },
@@ -357,257 +270,83 @@
       "role": "Consumer",
       "timelines": {
         "1w": {
-          "changePct": 0.94,
+          "changePct": 1.58,
           "startPrice": 4601.5,
-          "endPrice": 4644.7,
+          "endPrice": 4674.4,
           "points": [
-            43,
-            18,
-            23,
-            65,
-            76,
-            82
-          ]
-        },
-        "2w": {
-          "changePct": 3.57,
-          "startPrice": 4484.4,
-          "endPrice": 4644.7,
-          "points": [
-            18,
-            66,
-            59,
-            47,
-            58,
-            65,
-            54,
-            56,
-            74,
-            79,
-            82
-          ]
-        },
-        "4w": {
-          "changePct": 8.24,
-          "startPrice": 4291.3,
-          "endPrice": 4644.7,
-          "points": [
-            20,
-            20,
-            18,
-            40,
-            39,
-            54,
-            50,
-            54,
-            75,
-            72,
-            67,
-            71,
-            74,
-            70,
-            71,
-            79,
-            81,
-            82
-          ]
-        }
-      },
-      "changePct": 8.24,
-      "startPrice": 4291.3,
-      "endPrice": 4644.7,
-      "points": [
-        20,
-        20,
-        18,
-        40,
-        39,
-        54,
-        50,
-        54,
-        75,
-        72,
-        67,
-        71,
-        74,
-        70,
-        71,
-        79,
-        81,
-        82
-      ]
-    },
-    {
-      "symbol": "TCS.NS",
-      "name": "TCS",
-      "sector": "IT",
-      "role": "IT",
-      "timelines": {
-        "1w": {
-          "changePct": 3.12,
-          "startPrice": 2181.5,
-          "endPrice": 2249.5,
-          "points": [
-            18,
-            32,
-            24,
-            32,
-            82,
-            68
-          ]
-        },
-        "2w": {
-          "changePct": 9.33,
-          "startPrice": 2057.6,
-          "endPrice": 2249.5,
-          "points": [
-            20,
-            32,
-            20,
-            18,
-            24,
-            56,
-            62,
-            59,
-            62,
-            82,
-            76
-          ]
-        },
-        "4w": {
-          "changePct": 7.39,
-          "startPrice": 2094.7,
-          "endPrice": 2249.5,
-          "points": [
-            43,
-            43,
-            44,
-            29,
-            18,
-            37,
-            43,
-            35,
-            43,
-            35,
-            33,
-            37,
-            62,
-            67,
-            64,
-            67,
-            82,
-            78
-          ]
-        }
-      },
-      "changePct": 7.39,
-      "startPrice": 2094.7,
-      "endPrice": 2249.5,
-      "points": [
-        43,
-        43,
-        44,
-        29,
-        18,
-        37,
-        43,
-        35,
-        43,
-        35,
-        33,
-        37,
-        62,
-        67,
-        64,
-        67,
-        82,
-        78
-      ]
-    },
-    {
-      "symbol": "ONGC.NS",
-      "name": "ONGC",
-      "sector": "Energy",
-      "role": "Energy",
-      "timelines": {
-        "1w": {
-          "changePct": 0.65,
-          "startPrice": 248.45,
-          "endPrice": 250.06,
-          "points": [
-            51,
-            60,
-            26,
-            18,
-            28,
-            82
-          ]
-        },
-        "2w": {
-          "changePct": 2.53,
-          "startPrice": 243.9,
-          "endPrice": 250.06,
-          "points": [
-            20,
-            23,
-            51,
-            18,
-            31,
-            66,
-            70,
-            53,
-            49,
-            54,
-            82
-          ]
-        },
-        "4w": {
-          "changePct": 7.28,
-          "startPrice": 233.1,
-          "endPrice": 250.06,
-          "points": [
-            18,
+            36,
             18,
             22,
-            25,
-            25,
-            29,
-            36,
+            51,
             59,
-            60,
-            70,
+            82
+          ]
+        },
+        "2w": {
+          "changePct": 4.24,
+          "startPrice": 4484.4,
+          "endPrice": 4674.4,
+          "points": [
+            18,
             58,
-            63,
-            76,
-            78,
-            71,
+            52,
+            42,
+            52,
+            57,
+            48,
+            50,
+            66,
             70,
-            72,
+            82
+          ]
+        },
+        "4w": {
+          "changePct": 8.93,
+          "startPrice": 4291.3,
+          "endPrice": 4674.4,
+          "points": [
+            20,
+            20,
+            18,
+            38,
+            38,
+            51,
+            48,
+            51,
+            71,
+            68,
+            63,
+            67,
+            70,
+            66,
+            67,
+            74,
+            76,
             82
           ]
         }
       },
-      "changePct": 7.28,
-      "startPrice": 233.1,
-      "endPrice": 250.06,
+      "changePct": 8.93,
+      "startPrice": 4291.3,
+      "endPrice": 4674.4,
       "points": [
+        20,
+        20,
         18,
-        18,
-        22,
-        25,
-        25,
-        29,
-        36,
-        59,
-        60,
-        70,
-        58,
-        63,
-        76,
-        78,
+        38,
+        38,
+        51,
+        48,
+        51,
         71,
+        68,
+        63,
+        67,
         70,
-        72,
+        66,
+        67,
+        74,
+        76,
         82
       ]
     },
@@ -618,168 +357,255 @@
       "role": "Lending",
       "timelines": {
         "1w": {
-          "changePct": 1.78,
+          "changePct": 4.34,
           "startPrice": 1022.6,
-          "endPrice": 1040.8,
+          "endPrice": 1067,
           "points": [
-            39,
+            35,
             18,
-            37,
-            58,
-            82,
-            62
+            34,
+            51,
+            71,
+            82
           ]
         },
         "2w": {
-          "changePct": 1.14,
+          "changePct": 3.68,
           "startPrice": 1029.1,
-          "endPrice": 1040.8,
+          "endPrice": 1067,
           "points": [
-            49,
-            65,
-            26,
+            44,
+            57,
+            25,
             18,
-            38,
-            41,
+            35,
+            37,
             21,
-            39,
-            59,
-            82,
-            63
+            36,
+            52,
+            71,
+            82
           ]
         },
         "4w": {
-          "changePct": 6.16,
+          "changePct": 8.83,
           "startPrice": 980.4,
-          "endPrice": 1040.8,
+          "endPrice": 1067,
           "points": [
             18,
             18,
             19,
-            39,
-            47,
-            50,
-            61,
-            59,
-            70,
+            36,
             43,
-            38,
-            52,
+            46,
+            56,
             54,
+            64,
             40,
-            52,
-            66,
-            82,
-            69
+            35,
+            48,
+            49,
+            37,
+            48,
+            60,
+            74,
+            82
           ]
         }
       },
-      "changePct": 6.16,
+      "changePct": 8.83,
       "startPrice": 980.4,
-      "endPrice": 1040.8,
+      "endPrice": 1067,
       "points": [
         18,
         18,
         19,
-        39,
-        47,
-        50,
-        61,
-        59,
-        70,
+        36,
         43,
-        38,
-        52,
+        46,
+        56,
         54,
+        64,
         40,
-        52,
-        66,
-        82,
-        69
+        35,
+        48,
+        49,
+        37,
+        48,
+        60,
+        74,
+        82
       ]
     },
     {
-      "symbol": "BAJAJ-AUTO.NS",
-      "name": "Bajaj Auto",
-      "sector": "Auto",
-      "role": "Auto",
+      "symbol": "DIVISLAB.NS",
+      "name": "Divi's Labs",
+      "sector": "Pharma",
+      "role": "Pharma",
       "timelines": {
         "1w": {
-          "changePct": 0.57,
-          "startPrice": 10381,
-          "endPrice": 10440.5,
+          "changePct": 1.59,
+          "startPrice": 7188.5,
+          "endPrice": 7303,
           "points": [
-            68,
             18,
+            60,
+            81,
+            47,
+            82,
+            75
+          ]
+        },
+        "2w": {
+          "changePct": 7.85,
+          "startPrice": 6771.5,
+          "endPrice": 7303,
+          "points": [
+            20,
+            18,
+            25,
+            27,
+            39,
+            67,
+            77,
+            82,
+            74,
+            82,
+            80
+          ]
+        },
+        "4w": {
+          "changePct": 8.78,
+          "startPrice": 6713.5,
+          "endPrice": 7303,
+          "points": [
+            32,
+            19,
+            21,
+            18,
+            29,
+            36,
+            44,
+            37,
+            35,
+            40,
+            42,
+            51,
+            71,
+            78,
+            82,
+            76,
+            82,
+            81
+          ]
+        }
+      },
+      "changePct": 8.78,
+      "startPrice": 6713.5,
+      "endPrice": 7303,
+      "points": [
+        32,
+        19,
+        21,
+        18,
+        29,
+        36,
+        44,
+        37,
+        35,
+        40,
+        42,
+        51,
+        71,
+        78,
+        82,
+        76,
+        82,
+        81
+      ]
+    },
+    {
+      "symbol": "ONGC.NS",
+      "name": "ONGC",
+      "sector": "Energy",
+      "role": "Energy",
+      "timelines": {
+        "1w": {
+          "changePct": 0.25,
+          "startPrice": 248.9,
+          "endPrice": 249.51,
+          "points": [
+            67,
+            28,
+            18,
+            30,
+            82,
+            80
+          ]
+        },
+        "2w": {
+          "changePct": 2.18,
+          "startPrice": 244.18,
+          "endPrice": 249.51,
+          "points": [
+            24,
             54,
+            18,
+            32,
+            70,
+            75,
             56,
+            51,
+            57,
             82,
             81
           ]
         },
-        "2w": {
-          "changePct": 4.03,
-          "startPrice": 10036.5,
-          "endPrice": 10440.5,
-          "points": [
-            18,
-            29,
-            38,
-            37,
-            37,
-            72,
-            38,
-            63,
-            64,
-            82,
-            82
-          ]
-        },
         "4w": {
-          "changePct": 6.07,
-          "startPrice": 9843,
-          "endPrice": 10440.5,
+          "changePct": 7.04,
+          "startPrice": 233.1,
+          "endPrice": 249.51,
           "points": [
-            35,
-            35,
             18,
+            22,
             25,
-            35,
+            25,
+            29,
             36,
-            30,
-            50,
-            56,
             60,
+            61,
+            72,
             59,
-            59,
-            77,
-            60,
+            64,
+            78,
+            79,
             73,
+            71,
             73,
             82,
             82
           ]
         }
       },
-      "changePct": 6.07,
-      "startPrice": 9843,
-      "endPrice": 10440.5,
+      "changePct": 7.04,
+      "startPrice": 233.1,
+      "endPrice": 249.51,
       "points": [
-        35,
-        35,
         18,
+        22,
         25,
-        35,
+        25,
+        29,
         36,
-        30,
-        50,
-        56,
         60,
+        61,
+        72,
         59,
-        59,
-        77,
-        60,
+        64,
+        78,
+        79,
         73,
+        71,
         73,
         82,
         82
@@ -792,24 +618,23 @@
       "role": "Financials",
       "timelines": {
         "1w": {
-          "changePct": -2.66,
-          "startPrice": 1908.1,
-          "endPrice": 1857.4,
+          "changePct": 0.91,
+          "startPrice": 1869.2,
+          "endPrice": 1886.2,
           "points": [
-            82,
-            46,
-            28,
+            59,
+            33,
             18,
-            32,
-            35
+            39,
+            49,
+            82
           ]
         },
         "2w": {
-          "changePct": -0.71,
-          "startPrice": 1870.7,
-          "endPrice": 1857.4,
+          "changePct": 0.05,
+          "startPrice": 1885.3,
+          "endPrice": 1886.2,
           "points": [
-            45,
             57,
             31,
             65,
@@ -819,15 +644,15 @@
             27,
             18,
             31,
-            34
+            37,
+            57
           ]
         },
         "4w": {
-          "changePct": 5.26,
+          "changePct": 6.89,
           "startPrice": 1764.6,
-          "endPrice": 1857.4,
+          "endPrice": 1886.2,
           "points": [
-            20,
             20,
             18,
             27,
@@ -844,15 +669,15 @@
             55,
             50,
             57,
-            58
+            60,
+            70
           ]
         }
       },
-      "changePct": 5.26,
+      "changePct": 6.89,
       "startPrice": 1764.6,
-      "endPrice": 1857.4,
+      "endPrice": 1886.2,
       "points": [
-        20,
         20,
         18,
         27,
@@ -869,7 +694,182 @@
         55,
         50,
         57,
-        58
+        60,
+        70
+      ]
+    },
+    {
+      "symbol": "BAJAJ-AUTO.NS",
+      "name": "Bajaj Auto",
+      "sector": "Auto",
+      "role": "Auto",
+      "timelines": {
+        "1w": {
+          "changePct": 3.2,
+          "startPrice": 10166,
+          "endPrice": 10491.5,
+          "points": [
+            18,
+            46,
+            48,
+            68,
+            82,
+            76
+          ]
+        },
+        "2w": {
+          "changePct": 3.78,
+          "startPrice": 10109.5,
+          "endPrice": 10491.5,
+          "points": [
+            18,
+            26,
+            25,
+            25,
+            60,
+            27,
+            51,
+            52,
+            70,
+            82,
+            77
+          ]
+        },
+        "4w": {
+          "changePct": 6.59,
+          "startPrice": 9843,
+          "endPrice": 10491.5,
+          "points": [
+            33,
+            18,
+            24,
+            33,
+            34,
+            29,
+            47,
+            52,
+            56,
+            56,
+            56,
+            72,
+            56,
+            68,
+            68,
+            76,
+            82,
+            80
+          ]
+        }
+      },
+      "changePct": 6.59,
+      "startPrice": 9843,
+      "endPrice": 10491.5,
+      "points": [
+        33,
+        18,
+        24,
+        33,
+        34,
+        29,
+        47,
+        52,
+        56,
+        56,
+        56,
+        72,
+        56,
+        68,
+        68,
+        76,
+        82,
+        80
+      ]
+    },
+    {
+      "symbol": "TCS.NS",
+      "name": "TCS",
+      "sector": "IT",
+      "role": "IT",
+      "timelines": {
+        "1w": {
+          "changePct": 1.1,
+          "startPrice": 2200.6,
+          "endPrice": 2224.9,
+          "points": [
+            27,
+            18,
+            27,
+            82,
+            68,
+            47
+          ]
+        },
+        "2w": {
+          "changePct": 6.14,
+          "startPrice": 2096.1,
+          "endPrice": 2224.9,
+          "points": [
+            32,
+            20,
+            18,
+            24,
+            56,
+            62,
+            59,
+            62,
+            82,
+            77,
+            69
+          ]
+        },
+        "4w": {
+          "changePct": 6.22,
+          "startPrice": 2094.7,
+          "endPrice": 2224.9,
+          "points": [
+            43,
+            44,
+            29,
+            18,
+            37,
+            43,
+            35,
+            43,
+            35,
+            33,
+            37,
+            62,
+            67,
+            64,
+            67,
+            82,
+            78,
+            72
+          ]
+        }
+      },
+      "changePct": 6.22,
+      "startPrice": 2094.7,
+      "endPrice": 2224.9,
+      "points": [
+        43,
+        44,
+        29,
+        18,
+        37,
+        43,
+        35,
+        43,
+        35,
+        33,
+        37,
+        62,
+        67,
+        64,
+        67,
+        82,
+        78,
+        72
       ]
     },
     {
@@ -879,431 +879,83 @@
       "role": "Banking",
       "timelines": {
         "1w": {
-          "changePct": 3.31,
-          "startPrice": 1409.5,
-          "endPrice": 1456.1,
+          "changePct": 3.97,
+          "startPrice": 1407.7,
+          "endPrice": 1463.6,
           "points": [
-            20,
             18,
-            29,
-            32,
-            66,
+            28,
+            30,
+            60,
+            78,
             82
           ]
         },
         "2w": {
-          "changePct": 2.05,
-          "startPrice": 1426.9,
-          "endPrice": 1456.1,
+          "changePct": 3.46,
+          "startPrice": 1414.7,
+          "endPrice": 1463.6,
           "points": [
-            57,
-            47,
+            44,
             18,
             18,
-            35,
-            42,
-            41,
-            48,
-            50,
-            72,
-            82
-          ]
-        },
-        "4w": {
-          "changePct": 4.94,
-          "startPrice": 1387.5,
-          "endPrice": 1456.1,
-          "points": [
-            28,
-            28,
-            28,
-            18,
-            22,
-            38,
-            47,
-            59,
-            49,
-            22,
-            22,
+            34,
+            40,
             39,
             45,
-            44,
-            50,
-            52,
-            73,
-            82
-          ]
-        }
-      },
-      "changePct": 4.94,
-      "startPrice": 1387.5,
-      "endPrice": 1456.1,
-      "points": [
-        28,
-        28,
-        28,
-        18,
-        22,
-        38,
-        47,
-        59,
-        49,
-        22,
-        22,
-        39,
-        45,
-        44,
-        50,
-        52,
-        73,
-        82
-      ]
-    },
-    {
-      "symbol": "BHARTIARTL.NS",
-      "name": "Bharti Airtel",
-      "sector": "Telecom",
-      "role": "Telecom",
-      "timelines": {
-        "1w": {
-          "changePct": 1.82,
-          "startPrice": 1901.8,
-          "endPrice": 1936.4,
-          "points": [
-            18,
-            82,
-            48,
-            55,
-            31,
-            82
-          ]
-        },
-        "2w": {
-          "changePct": 0.56,
-          "startPrice": 1925.7,
-          "endPrice": 1936.4,
-          "points": [
-            68,
-            68,
-            18,
-            75,
-            61,
-            36,
-            82,
-            58,
-            63,
-            45,
-            82
-          ]
-        },
-        "4w": {
-          "changePct": 4.63,
-          "startPrice": 1850.7,
-          "endPrice": 1936.4,
-          "points": [
-            24,
-            24,
-            18,
-            25,
-            38,
-            41,
-            64,
-            75,
-            75,
-            50,
-            78,
-            71,
-            59,
-            82,
-            70,
-            72,
-            63,
-            82
-          ]
-        }
-      },
-      "changePct": 4.63,
-      "startPrice": 1850.7,
-      "endPrice": 1936.4,
-      "points": [
-        24,
-        24,
-        18,
-        25,
-        38,
-        41,
-        64,
-        75,
-        75,
-        50,
-        78,
-        71,
-        59,
-        82,
-        70,
-        72,
-        63,
-        82
-      ]
-    },
-    {
-      "symbol": "INFY.NS",
-      "name": "Infosys",
-      "sector": "IT",
-      "role": "IT",
-      "timelines": {
-        "1w": {
-          "changePct": -1.22,
-          "startPrice": 1102.6,
-          "endPrice": 1089.1,
-          "points": [
-            82,
-            58,
-            18,
-            33,
-            67,
-            49
-          ]
-        },
-        "2w": {
-          "changePct": 4.5,
-          "startPrice": 1042.2,
-          "endPrice": 1089.1,
-          "points": [
-            18,
-            49,
             47,
+            67,
+            79,
+            82
+          ]
+        },
+        "4w": {
+          "changePct": 5.48,
+          "startPrice": 1387.5,
+          "endPrice": 1463.6,
+          "points": [
             27,
-            45,
-            82,
-            72,
-            54,
-            61,
-            76,
-            68
-          ]
-        },
-        "4w": {
-          "changePct": 4.6,
-          "startPrice": 1041.2,
-          "endPrice": 1089.1,
-          "points": [
-            48,
-            48,
-            46,
-            26,
-            18,
-            48,
-            52,
-            49,
-            65,
-            64,
-            54,
-            63,
-            82,
-            77,
-            68,
-            71,
-            79,
-            75
-          ]
-        }
-      },
-      "changePct": 4.6,
-      "startPrice": 1041.2,
-      "endPrice": 1089.1,
-      "points": [
-        48,
-        48,
-        46,
-        26,
-        18,
-        48,
-        52,
-        49,
-        65,
-        64,
-        54,
-        63,
-        82,
-        77,
-        68,
-        71,
-        79,
-        75
-      ]
-    },
-    {
-      "symbol": "SUNPHARMA.NS",
-      "name": "Sun Pharma",
-      "sector": "Pharma",
-      "role": "Pharma",
-      "timelines": {
-        "1w": {
-          "changePct": 1.23,
-          "startPrice": 1921.4,
-          "endPrice": 1945,
-          "points": [
-            18,
-            63,
-            82,
-            79,
-            42,
-            68
-          ]
-        },
-        "2w": {
-          "changePct": 1.68,
-          "startPrice": 1912.8,
-          "endPrice": 1945,
-          "points": [
-            43,
-            33,
-            18,
-            69,
-            66,
-            52,
-            73,
-            82,
-            81,
-            63,
-            75
-          ]
-        },
-        "4w": {
-          "changePct": 4.41,
-          "startPrice": 1862.8,
-          "endPrice": 1945,
-          "points": [
-            18,
-            18,
             27,
             18,
             21,
-            24,
-            48,
-            54,
-            47,
             36,
-            73,
-            70,
-            60,
-            76,
-            82,
-            81,
+            44,
+            55,
+            47,
+            22,
+            22,
+            37,
+            43,
+            42,
+            48,
+            49,
             68,
-            77
+            80,
+            82
           ]
         }
       },
-      "changePct": 4.41,
-      "startPrice": 1862.8,
-      "endPrice": 1945,
+      "changePct": 5.48,
+      "startPrice": 1387.5,
+      "endPrice": 1463.6,
       "points": [
-        18,
-        18,
+        27,
         27,
         18,
         21,
-        24,
-        48,
-        54,
-        47,
         36,
-        73,
-        70,
-        60,
-        76,
-        82,
-        81,
-        68,
-        77
-      ]
-    },
-    {
-      "symbol": "BRITANNIA.NS",
-      "name": "Britannia",
-      "sector": "Consumer",
-      "role": "Consumer",
-      "timelines": {
-        "1w": {
-          "changePct": 2.11,
-          "startPrice": 5348.5,
-          "endPrice": 5461.5,
-          "points": [
-            41,
-            18,
-            30,
-            28,
-            64,
-            82
-          ]
-        },
-        "2w": {
-          "changePct": 0.13,
-          "startPrice": 5454.5,
-          "endPrice": 5461.5,
-          "points": [
-            79,
-            77,
-            30,
-            46,
-            43,
-            41,
-            18,
-            30,
-            28,
-            64,
-            82
-          ]
-        },
-        "4w": {
-          "changePct": 4.29,
-          "startPrice": 5237,
-          "endPrice": 5461.5,
-          "points": [
-            42,
-            42,
-            18,
-            26,
-            46,
-            66,
-            67,
-            81,
-            79,
-            56,
-            64,
-            63,
-            62,
-            50,
-            56,
-            55,
-            73,
-            82
-          ]
-        }
-      },
-      "changePct": 4.29,
-      "startPrice": 5237,
-      "endPrice": 5461.5,
-      "points": [
-        42,
-        42,
-        18,
-        26,
-        46,
-        66,
-        67,
-        81,
-        79,
-        56,
-        64,
-        63,
-        62,
-        50,
-        56,
+        44,
         55,
-        73,
+        47,
+        22,
+        22,
+        37,
+        43,
+        42,
+        48,
+        49,
+        68,
+        80,
         82
       ]
     },
@@ -1314,22 +966,22 @@
       "role": "Infrastructure",
       "timelines": {
         "1w": {
-          "changePct": -0.33,
+          "changePct": 0.6,
           "startPrice": 3177.5,
-          "endPrice": 3167,
+          "endPrice": 3196.7,
           "points": [
-            63,
-            82,
+            55,
+            71,
             18,
             19,
-            35,
-            45
+            32,
+            82
           ]
         },
         "2w": {
-          "changePct": -1.23,
+          "changePct": -0.31,
           "startPrice": 3206.6,
-          "endPrice": 3167,
+          "endPrice": 3196.7,
           "points": [
             82,
             42,
@@ -1341,13 +993,13 @@
             60,
             60,
             64,
-            66
+            78
           ]
         },
         "4w": {
-          "changePct": 4.25,
+          "changePct": 5.22,
           "startPrice": 3038,
-          "endPrice": 3167,
+          "endPrice": 3196.7,
           "points": [
             37,
             37,
@@ -1366,13 +1018,13 @@
             66,
             66,
             69,
-            70
+            78
           ]
         }
       },
-      "changePct": 4.25,
+      "changePct": 5.22,
       "startPrice": 3038,
-      "endPrice": 3167,
+      "endPrice": 3196.7,
       "points": [
         37,
         37,
@@ -1391,7 +1043,181 @@
         66,
         66,
         69,
-        70
+        78
+      ]
+    },
+    {
+      "symbol": "BHARTIARTL.NS",
+      "name": "Bharti Airtel",
+      "sector": "Telecom",
+      "role": "Telecom",
+      "timelines": {
+        "1w": {
+          "changePct": 2.27,
+          "startPrice": 1901.8,
+          "endPrice": 1945,
+          "points": [
+            18,
+            69,
+            42,
+            48,
+            28,
+            82
+          ]
+        },
+        "2w": {
+          "changePct": 1,
+          "startPrice": 1925.7,
+          "endPrice": 1945,
+          "points": [
+            60,
+            60,
+            18,
+            66,
+            54,
+            33,
+            72,
+            52,
+            56,
+            41,
+            82
+          ]
+        },
+        "4w": {
+          "changePct": 5.1,
+          "startPrice": 1850.7,
+          "endPrice": 1945,
+          "points": [
+            24,
+            24,
+            18,
+            25,
+            36,
+            39,
+            61,
+            70,
+            70,
+            47,
+            73,
+            67,
+            55,
+            77,
+            66,
+            68,
+            60,
+            82
+          ]
+        }
+      },
+      "changePct": 5.1,
+      "startPrice": 1850.7,
+      "endPrice": 1945,
+      "points": [
+        24,
+        24,
+        18,
+        25,
+        36,
+        39,
+        61,
+        70,
+        70,
+        47,
+        73,
+        67,
+        55,
+        77,
+        66,
+        68,
+        60,
+        82
+      ]
+    },
+    {
+      "symbol": "SUNPHARMA.NS",
+      "name": "Sun Pharma",
+      "sector": "Pharma",
+      "role": "Pharma",
+      "timelines": {
+        "1w": {
+          "changePct": 1.81,
+          "startPrice": 1921.4,
+          "endPrice": 1956.1,
+          "points": [
+            18,
+            57,
+            74,
+            71,
+            39,
+            82
+          ]
+        },
+        "2w": {
+          "changePct": 2.26,
+          "startPrice": 1912.8,
+          "endPrice": 1956.1,
+          "points": [
+            41,
+            32,
+            18,
+            66,
+            63,
+            49,
+            69,
+            78,
+            76,
+            60,
+            82
+          ]
+        },
+        "4w": {
+          "changePct": 5.01,
+          "startPrice": 1862.8,
+          "endPrice": 1956.1,
+          "points": [
+            18,
+            18,
+            26,
+            18,
+            21,
+            24,
+            47,
+            52,
+            46,
+            36,
+            70,
+            68,
+            58,
+            73,
+            79,
+            78,
+            66,
+            82
+          ]
+        }
+      },
+      "changePct": 5.01,
+      "startPrice": 1862.8,
+      "endPrice": 1956.1,
+      "points": [
+        18,
+        18,
+        26,
+        18,
+        21,
+        24,
+        47,
+        52,
+        46,
+        36,
+        70,
+        68,
+        58,
+        73,
+        79,
+        78,
+        66,
+        82
       ]
     },
     {
@@ -1401,22 +1227,22 @@
       "role": "Insurance",
       "timelines": {
         "1w": {
-          "changePct": -2.51,
+          "changePct": -1.91,
           "startPrice": 1855.9,
-          "endPrice": 1809.4,
+          "endPrice": 1820.4,
           "points": [
-            70,
-            53,
+            67,
+            46,
             82,
-            32,
-            40,
+            20,
+            31,
             18
           ]
         },
         "2w": {
-          "changePct": 1.21,
+          "changePct": 1.83,
           "startPrice": 1787.7,
-          "endPrice": 1809.4,
+          "endPrice": 1820.4,
           "points": [
             18,
             54,
@@ -1428,13 +1254,13 @@
             82,
             46,
             52,
-            36
+            45
           ]
         },
         "4w": {
-          "changePct": 3.7,
+          "changePct": 4.33,
           "startPrice": 1744.9,
-          "endPrice": 1809.4,
+          "endPrice": 1820.4,
           "points": [
             18,
             18,
@@ -1453,13 +1279,13 @@
             82,
             59,
             63,
-            52
+            58
           ]
         }
       },
-      "changePct": 3.7,
+      "changePct": 4.33,
       "startPrice": 1744.9,
-      "endPrice": 1809.4,
+      "endPrice": 1820.4,
       "points": [
         18,
         18,
@@ -1478,7 +1304,268 @@
         82,
         59,
         63,
-        52
+        58
+      ]
+    },
+    {
+      "symbol": "ULTRACEMCO.NS",
+      "name": "UltraTech Cement",
+      "sector": "Materials",
+      "role": "Materials",
+      "timelines": {
+        "1w": {
+          "changePct": 4.14,
+          "startPrice": 11496,
+          "endPrice": 11972,
+          "points": [
+            18,
+            60,
+            55,
+            49,
+            73,
+            82
+          ]
+        },
+        "2w": {
+          "changePct": 2.77,
+          "startPrice": 11649,
+          "endPrice": 11972,
+          "points": [
+            49,
+            18,
+            36,
+            55,
+            41,
+            33,
+            65,
+            61,
+            57,
+            75,
+            82
+          ]
+        },
+        "4w": {
+          "changePct": 4.2,
+          "startPrice": 11489,
+          "endPrice": 11972,
+          "points": [
+            39,
+            25,
+            18,
+            36,
+            43,
+            60,
+            54,
+            53,
+            27,
+            42,
+            59,
+            46,
+            40,
+            68,
+            64,
+            60,
+            76,
+            82
+          ]
+        }
+      },
+      "changePct": 4.2,
+      "startPrice": 11489,
+      "endPrice": 11972,
+      "points": [
+        39,
+        25,
+        18,
+        36,
+        43,
+        60,
+        54,
+        53,
+        27,
+        42,
+        59,
+        46,
+        40,
+        68,
+        64,
+        60,
+        76,
+        82
+      ]
+    },
+    {
+      "symbol": "BRITANNIA.NS",
+      "name": "Britannia",
+      "sector": "Consumer",
+      "role": "Consumer",
+      "timelines": {
+        "1w": {
+          "changePct": 1.83,
+          "startPrice": 5348.5,
+          "endPrice": 5446.5,
+          "points": [
+            44,
+            18,
+            31,
+            29,
+            69,
+            82
+          ]
+        },
+        "2w": {
+          "changePct": -0.15,
+          "startPrice": 5454.5,
+          "endPrice": 5446.5,
+          "points": [
+            82,
+            79,
+            30,
+            47,
+            44,
+            42,
+            18,
+            30,
+            28,
+            66,
+            79
+          ]
+        },
+        "4w": {
+          "changePct": 4,
+          "startPrice": 5237,
+          "endPrice": 5446.5,
+          "points": [
+            43,
+            43,
+            18,
+            26,
+            47,
+            67,
+            68,
+            82,
+            81,
+            57,
+            65,
+            64,
+            63,
+            51,
+            57,
+            56,
+            74,
+            81
+          ]
+        }
+      },
+      "changePct": 4,
+      "startPrice": 5237,
+      "endPrice": 5446.5,
+      "points": [
+        43,
+        43,
+        18,
+        26,
+        47,
+        67,
+        68,
+        82,
+        81,
+        57,
+        65,
+        64,
+        63,
+        51,
+        57,
+        56,
+        74,
+        81
+      ]
+    },
+    {
+      "symbol": "NESTLEIND.NS",
+      "name": "Nestle India",
+      "sector": "Consumer",
+      "role": "Consumer",
+      "timelines": {
+        "1w": {
+          "changePct": 1.97,
+          "startPrice": 1427,
+          "endPrice": 1455.1,
+          "points": [
+            25,
+            25,
+            20,
+            18,
+            25,
+            82
+          ]
+        },
+        "2w": {
+          "changePct": -1.26,
+          "startPrice": 1473.7,
+          "endPrice": 1455.1,
+          "points": [
+            82,
+            80,
+            52,
+            69,
+            58,
+            22,
+            23,
+            19,
+            18,
+            23,
+            58
+          ]
+        },
+        "4w": {
+          "changePct": 3.74,
+          "startPrice": 1402.6,
+          "endPrice": 1455.1,
+          "points": [
+            29,
+            29,
+            18,
+            31,
+            67,
+            62,
+            72,
+            82,
+            81,
+            65,
+            74,
+            68,
+            47,
+            47,
+            45,
+            45,
+            48,
+            68
+          ]
+        }
+      },
+      "changePct": 3.74,
+      "startPrice": 1402.6,
+      "endPrice": 1455.1,
+      "points": [
+        29,
+        29,
+        18,
+        31,
+        67,
+        62,
+        72,
+        82,
+        81,
+        65,
+        74,
+        68,
+        47,
+        47,
+        45,
+        45,
+        48,
+        68
       ]
     },
     {
@@ -1488,22 +1575,22 @@
       "role": "Healthcare",
       "timelines": {
         "1w": {
-          "changePct": 1.22,
+          "changePct": 1.24,
           "startPrice": 8782.5,
-          "endPrice": 8890,
+          "endPrice": 8891.5,
           "points": [
             18,
             68,
             82,
             63,
             36,
-            63
+            64
           ]
         },
         "2w": {
-          "changePct": 0.02,
+          "changePct": 0.03,
           "startPrice": 8888.5,
-          "endPrice": 8890,
+          "endPrice": 8891.5,
           "points": [
             66,
             48,
@@ -1515,13 +1602,13 @@
             82,
             66,
             44,
-            66
+            67
           ]
         },
         "4w": {
-          "changePct": 3.47,
+          "changePct": 3.49,
           "startPrice": 8592,
-          "endPrice": 8890,
+          "endPrice": 8891.5,
           "points": [
             18,
             18,
@@ -1544,9 +1631,9 @@
           ]
         }
       },
-      "changePct": 3.47,
+      "changePct": 3.49,
       "startPrice": 8592,
-      "endPrice": 8890,
+      "endPrice": 8891.5,
       "points": [
         18,
         18,
@@ -1569,177 +1656,351 @@
       ]
     },
     {
-      "symbol": "NESTLEIND.NS",
-      "name": "Nestle India",
-      "sector": "Consumer",
-      "role": "Consumer",
+      "symbol": "INFY.NS",
+      "name": "Infosys",
+      "sector": "IT",
+      "role": "IT",
       "timelines": {
         "1w": {
-          "changePct": 1.09,
-          "startPrice": 1427,
-          "endPrice": 1442.5,
+          "changePct": -1.63,
+          "startPrice": 1092.9,
+          "endPrice": 1075.1,
           "points": [
-            30,
-            30,
-            21,
+            71,
+            22,
+            40,
+            82,
+            54,
+            18
+          ]
+        },
+        "2w": {
+          "changePct": 0.31,
+          "startPrice": 1071.8,
+          "endPrice": 1075.1,
+          "points": [
+            44,
+            41,
             18,
-            30,
+            39,
+            82,
+            70,
+            50,
+            57,
+            74,
+            63,
+            48
+          ]
+        },
+        "4w": {
+          "changePct": 3.26,
+          "startPrice": 1041.2,
+          "endPrice": 1075.1,
+          "points": [
+            48,
+            46,
+            26,
+            18,
+            48,
+            52,
+            49,
+            65,
+            64,
+            54,
+            63,
+            82,
+            77,
+            68,
+            71,
+            79,
+            74,
+            67
+          ]
+        }
+      },
+      "changePct": 3.26,
+      "startPrice": 1041.2,
+      "endPrice": 1075.1,
+      "points": [
+        48,
+        46,
+        26,
+        18,
+        48,
+        52,
+        49,
+        65,
+        64,
+        54,
+        63,
+        82,
+        77,
+        68,
+        71,
+        79,
+        74,
+        67
+      ]
+    },
+    {
+      "symbol": "SHRIRAMFIN.NS",
+      "name": "Shriram Finance",
+      "sector": "Lending",
+      "role": "Lending",
+      "timelines": {
+        "1w": {
+          "changePct": 5.02,
+          "startPrice": 1013.9,
+          "endPrice": 1064.8,
+          "points": [
+            18,
+            43,
+            31,
+            44,
+            45,
             82
           ]
         },
         "2w": {
-          "changePct": -2.12,
-          "startPrice": 1473.7,
-          "endPrice": 1442.5,
+          "changePct": -0.19,
+          "startPrice": 1066.8,
+          "endPrice": 1064.8,
           "points": [
             82,
-            80,
-            52,
-            69,
-            58,
-            22,
-            23,
             19,
-            18,
-            23,
-            42
-          ]
-        },
-        "4w": {
-          "changePct": 2.84,
-          "startPrice": 1402.6,
-          "endPrice": 1442.5,
-          "points": [
-            29,
-            29,
-            18,
-            31,
-            67,
-            62,
-            72,
-            82,
-            81,
-            65,
-            74,
-            68,
-            47,
-            47,
-            45,
-            45,
-            48,
-            59
-          ]
-        }
-      },
-      "changePct": 2.84,
-      "startPrice": 1402.6,
-      "endPrice": 1442.5,
-      "points": [
-        29,
-        29,
-        18,
-        31,
-        67,
-        62,
-        72,
-        82,
-        81,
-        65,
-        74,
-        68,
-        47,
-        47,
-        45,
-        45,
-        48,
-        59
-      ]
-    },
-    {
-      "symbol": "ULTRACEMCO.NS",
-      "name": "UltraTech Cement",
-      "sector": "Materials",
-      "role": "Materials",
-      "timelines": {
-        "1w": {
-          "changePct": 2.03,
-          "startPrice": 11571,
-          "endPrice": 11806,
-          "points": [
-            33,
-            18,
-            82,
-            74,
-            65,
-            81
-          ]
-        },
-        "2w": {
-          "changePct": 1.24,
-          "startPrice": 11661,
-          "endPrice": 11806,
-          "points": [
-            61,
+            40,
+            55,
             59,
             18,
             42,
-            68,
-            48,
-            38,
-            82,
-            76,
-            70,
-            81
+            31,
+            43,
+            44,
+            80
           ]
         },
         "4w": {
-          "changePct": 2.76,
-          "startPrice": 11489,
-          "endPrice": 11806,
+          "changePct": 3.2,
+          "startPrice": 1031.8,
+          "endPrice": 1064.8,
           "points": [
-            45,
-            45,
-            28,
-            18,
+            40,
             41,
-            50,
-            72,
-            65,
-            63,
-            29,
-            49,
-            70,
-            54,
-            46,
+            52,
+            59,
             82,
+            78,
             77,
-            72,
-            81
+            82,
+            19,
+            40,
+            55,
+            59,
+            18,
+            42,
+            31,
+            43,
+            44,
+            80
           ]
         }
       },
-      "changePct": 2.76,
-      "startPrice": 11489,
-      "endPrice": 11806,
+      "changePct": 3.2,
+      "startPrice": 1031.8,
+      "endPrice": 1064.8,
       "points": [
-        45,
-        45,
-        28,
-        18,
+        40,
         41,
-        50,
-        72,
-        65,
-        63,
-        29,
-        49,
-        70,
-        54,
-        46,
+        52,
+        59,
         82,
+        78,
         77,
-        72,
-        81
+        82,
+        19,
+        40,
+        55,
+        59,
+        18,
+        42,
+        31,
+        43,
+        44,
+        80
+      ]
+    },
+    {
+      "symbol": "BPCL.NS",
+      "name": "BPCL",
+      "sector": "Energy",
+      "role": "Energy",
+      "timelines": {
+        "1w": {
+          "changePct": 4.47,
+          "startPrice": 305.35,
+          "endPrice": 319,
+          "points": [
+            18,
+            38,
+            49,
+            66,
+            75,
+            82
+          ]
+        },
+        "2w": {
+          "changePct": 1.61,
+          "startPrice": 313.95,
+          "endPrice": 319,
+          "points": [
+            61,
+            18,
+            37,
+            44,
+            35,
+            25,
+            43,
+            53,
+            68,
+            76,
+            82
+          ]
+        },
+        "4w": {
+          "changePct": 2.99,
+          "startPrice": 309.75,
+          "endPrice": 319,
+          "points": [
+            49,
+            18,
+            28,
+            30,
+            52,
+            44,
+            44,
+            64,
+            28,
+            44,
+            49,
+            42,
+            34,
+            49,
+            57,
+            70,
+            77,
+            82
+          ]
+        }
+      },
+      "changePct": 2.99,
+      "startPrice": 309.75,
+      "endPrice": 319,
+      "points": [
+        49,
+        18,
+        28,
+        30,
+        52,
+        44,
+        44,
+        64,
+        28,
+        44,
+        49,
+        42,
+        34,
+        49,
+        57,
+        70,
+        77,
+        82
+      ]
+    },
+    {
+      "symbol": "JSWSTEEL.NS",
+      "name": "JSW Steel",
+      "sector": "Metals",
+      "role": "Metals",
+      "timelines": {
+        "1w": {
+          "changePct": 2.35,
+          "startPrice": 1237.4,
+          "endPrice": 1266.5,
+          "points": [
+            41,
+            56,
+            26,
+            18,
+            41,
+            82
+          ]
+        },
+        "2w": {
+          "changePct": 1.87,
+          "startPrice": 1243.2,
+          "endPrice": 1266.5,
+          "points": [
+            50,
+            55,
+            18,
+            27,
+            53,
+            42,
+            56,
+            28,
+            20,
+            42,
+            82
+          ]
+        },
+        "4w": {
+          "changePct": 2.88,
+          "startPrice": 1231,
+          "endPrice": 1266.5,
+          "points": [
+            37,
+            37,
+            39,
+            31,
+            18,
+            28,
+            36,
+            52,
+            56,
+            22,
+            30,
+            55,
+            45,
+            58,
+            32,
+            24,
+            45,
+            82
+          ]
+        }
+      },
+      "changePct": 2.88,
+      "startPrice": 1231,
+      "endPrice": 1266.5,
+      "points": [
+        37,
+        37,
+        39,
+        31,
+        18,
+        28,
+        36,
+        52,
+        56,
+        22,
+        30,
+        55,
+        45,
+        58,
+        32,
+        24,
+        45,
+        82
       ]
     },
     {
@@ -1749,22 +2010,22 @@
       "role": "Logistics",
       "timelines": {
         "1w": {
-          "changePct": 1.56,
+          "changePct": 1.64,
           "startPrice": 1810.3,
-          "endPrice": 1838.5,
+          "endPrice": 1840,
           "points": [
             18,
-            44,
-            61,
-            55,
-            80,
+            43,
+            59,
+            53,
+            76,
             82
           ]
         },
         "2w": {
-          "changePct": -1.39,
+          "changePct": -1.31,
           "startPrice": 1864.4,
-          "endPrice": 1838.5,
+          "endPrice": 1840,
           "points": [
             82,
             55,
@@ -1776,13 +2037,13 @@
             51,
             49,
             58,
-            59
+            61
           ]
         },
         "4w": {
-          "changePct": 2.37,
+          "changePct": 2.45,
           "startPrice": 1796,
-          "endPrice": 1838.5,
+          "endPrice": 1840,
           "points": [
             30,
             30,
@@ -1801,13 +2062,13 @@
             50,
             48,
             55,
-            55
+            56
           ]
         }
       },
-      "changePct": 2.37,
+      "changePct": 2.45,
       "startPrice": 1796,
-      "endPrice": 1838.5,
+      "endPrice": 1840,
       "points": [
         30,
         30,
@@ -1826,94 +2087,7 @@
         50,
         48,
         55,
-        55
-      ]
-    },
-    {
-      "symbol": "JSWSTEEL.NS",
-      "name": "JSW Steel",
-      "sector": "Metals",
-      "role": "Metals",
-      "timelines": {
-        "1w": {
-          "changePct": 1.79,
-          "startPrice": 1237.4,
-          "endPrice": 1259.6,
-          "points": [
-            45,
-            62,
-            28,
-            18,
-            45,
-            82
-          ]
-        },
-        "2w": {
-          "changePct": 1.32,
-          "startPrice": 1243.2,
-          "endPrice": 1259.6,
-          "points": [
-            56,
-            61,
-            18,
-            28,
-            59,
-            47,
-            63,
-            30,
-            20,
-            46,
-            82
-          ]
-        },
-        "4w": {
-          "changePct": 2.32,
-          "startPrice": 1231,
-          "endPrice": 1259.6,
-          "points": [
-            40,
-            40,
-            42,
-            33,
-            18,
-            29,
-            39,
-            58,
-            63,
-            23,
-            32,
-            61,
-            49,
-            64,
-            34,
-            25,
-            49,
-            82
-          ]
-        }
-      },
-      "changePct": 2.32,
-      "startPrice": 1231,
-      "endPrice": 1259.6,
-      "points": [
-        40,
-        40,
-        42,
-        33,
-        18,
-        29,
-        39,
-        58,
-        63,
-        23,
-        32,
-        61,
-        49,
-        64,
-        34,
-        25,
-        49,
-        82
+        56
       ]
     },
     {
@@ -1923,22 +2097,22 @@
       "role": "Consumer",
       "timelines": {
         "1w": {
-          "changePct": 1.56,
+          "changePct": 1.62,
           "startPrice": 2652.1,
-          "endPrice": 2693.5,
+          "endPrice": 2695.1,
           "points": [
-            32,
+            31,
             18,
-            53,
-            59,
-            77,
+            52,
+            58,
+            75,
             82
           ]
         },
         "2w": {
-          "changePct": -2.23,
+          "changePct": -2.17,
           "startPrice": 2754.9,
-          "endPrice": 2693.5,
+          "endPrice": 2695.1,
           "points": [
             82,
             69,
@@ -1950,13 +2124,13 @@
             34,
             37,
             45,
-            47
+            48
           ]
         },
         "4w": {
-          "changePct": 1.83,
+          "changePct": 1.89,
           "startPrice": 2645.2,
-          "endPrice": 2693.5,
+          "endPrice": 2695.1,
           "points": [
             23,
             23,
@@ -1975,13 +2149,13 @@
             36,
             39,
             47,
-            49
+            50
           ]
         }
       },
-      "changePct": 1.83,
+      "changePct": 1.89,
       "startPrice": 2645.2,
-      "endPrice": 2693.5,
+      "endPrice": 2695.1,
       "points": [
         23,
         23,
@@ -2000,268 +2174,7 @@
         36,
         39,
         47,
-        49
-      ]
-    },
-    {
-      "symbol": "RELIANCE.NS",
-      "name": "Reliance",
-      "sector": "Energy",
-      "role": "Energy",
-      "timelines": {
-        "1w": {
-          "changePct": 2.76,
-          "startPrice": 1296.9,
-          "endPrice": 1332.7,
-          "points": [
-            24,
-            18,
-            22,
-            24,
-            73,
-            82
-          ]
-        },
-        "2w": {
-          "changePct": 0.86,
-          "startPrice": 1321.3,
-          "endPrice": 1332.7,
-          "points": [
-            69,
-            55,
-            18,
-            22,
-            54,
-            42,
-            37,
-            40,
-            41,
-            76,
-            82
-          ]
-        },
-        "4w": {
-          "changePct": 1.11,
-          "startPrice": 1318.1,
-          "endPrice": 1332.7,
-          "points": [
-            66,
-            66,
-            46,
-            38,
-            54,
-            49,
-            50,
-            69,
-            55,
-            18,
-            22,
-            54,
-            42,
-            37,
-            40,
-            41,
-            76,
-            82
-          ]
-        }
-      },
-      "changePct": 1.11,
-      "startPrice": 1318.1,
-      "endPrice": 1332.7,
-      "points": [
-        66,
-        66,
-        46,
-        38,
-        54,
-        49,
-        50,
-        69,
-        55,
-        18,
-        22,
-        54,
-        42,
-        37,
-        40,
-        41,
-        76,
-        82
-      ]
-    },
-    {
-      "symbol": "POWERGRID.NS",
-      "name": "Power Grid",
-      "sector": "Power",
-      "role": "Power",
-      "timelines": {
-        "1w": {
-          "changePct": 0.16,
-          "startPrice": 286,
-          "endPrice": 286.45,
-          "points": [
-            77,
-            79,
-            18,
-            19,
-            50,
-            82
-          ]
-        },
-        "2w": {
-          "changePct": 0.37,
-          "startPrice": 285.4,
-          "endPrice": 286.45,
-          "points": [
-            72,
-            62,
-            18,
-            34,
-            50,
-            78,
-            79,
-            27,
-            28,
-            55,
-            82
-          ]
-        },
-        "4w": {
-          "changePct": 0.9,
-          "startPrice": 283.9,
-          "endPrice": 286.45,
-          "points": [
-            50,
-            50,
-            67,
-            68,
-            77,
-            82,
-            79,
-            61,
-            53,
-            18,
-            30,
-            44,
-            65,
-            67,
-            26,
-            26,
-            47,
-            69
-          ]
-        }
-      },
-      "changePct": 0.9,
-      "startPrice": 283.9,
-      "endPrice": 286.45,
-      "points": [
-        50,
-        50,
-        67,
-        68,
-        77,
-        82,
-        79,
-        61,
-        53,
-        18,
-        30,
-        44,
-        65,
-        67,
-        26,
-        26,
-        47,
-        69
-      ]
-    },
-    {
-      "symbol": "WIPRO.NS",
-      "name": "Wipro",
-      "sector": "IT",
-      "role": "IT",
-      "timelines": {
-        "1w": {
-          "changePct": -1.18,
-          "startPrice": 178.43,
-          "endPrice": 176.33,
-          "points": [
-            82,
-            60,
-            18,
-            70,
-            41,
-            46
-          ]
-        },
-        "2w": {
-          "changePct": 1.15,
-          "startPrice": 174.32,
-          "endPrice": 176.33,
-          "points": [
-            36,
-            21,
-            18,
-            18,
-            49,
-            82,
-            68,
-            40,
-            74,
-            55,
-            58
-          ]
-        },
-        "4w": {
-          "changePct": 0.76,
-          "startPrice": 175,
-          "endPrice": 176.33,
-          "points": [
-            56,
-            56,
-            59,
-            20,
-            18,
-            48,
-            64,
-            50,
-            40,
-            38,
-            38,
-            59,
-            82,
-            72,
-            53,
-            77,
-            63,
-            66
-          ]
-        }
-      },
-      "changePct": 0.76,
-      "startPrice": 175,
-      "endPrice": 176.33,
-      "points": [
-        56,
-        56,
-        59,
-        20,
-        18,
-        48,
-        64,
-        50,
-        40,
-        38,
-        38,
-        59,
-        82,
-        72,
-        53,
-        77,
-        63,
-        66
+        50
       ]
     },
     {
@@ -2271,24 +2184,23 @@
       "role": "Auto",
       "timelines": {
         "1w": {
-          "changePct": -0.53,
-          "startPrice": 4952.1,
-          "endPrice": 4926,
+          "changePct": 2.22,
+          "startPrice": 4878.3,
+          "endPrice": 4986.8,
           "points": [
-            82,
-            20,
+            19,
             18,
-            36,
-            46,
-            60
+            31,
+            38,
+            77,
+            82
           ]
         },
         "2w": {
-          "changePct": -0.37,
-          "startPrice": 4944.4,
-          "endPrice": 4926,
+          "changePct": -0.17,
+          "startPrice": 4995.4,
+          "endPrice": 4986.8,
           "points": [
-            55,
             82,
             27,
             30,
@@ -2298,15 +2210,15 @@
             18,
             30,
             36,
-            45
+            72,
+            77
           ]
         },
         "4w": {
-          "changePct": 0.61,
+          "changePct": 1.85,
           "startPrice": 4896.1,
-          "endPrice": 4926,
+          "endPrice": 4986.8,
           "points": [
-            50,
             50,
             24,
             18,
@@ -2323,15 +2235,15 @@
             44,
             51,
             55,
-            60
+            76,
+            79
           ]
         }
       },
-      "changePct": 0.61,
+      "changePct": 1.85,
       "startPrice": 4896.1,
-      "endPrice": 4926,
+      "endPrice": 4986.8,
       "points": [
-        50,
         50,
         24,
         18,
@@ -2348,355 +2260,95 @@
         44,
         51,
         55,
-        60
+        76,
+        79
       ]
     },
     {
-      "symbol": "CIPLA.NS",
-      "name": "Cipla",
-      "sector": "Pharma",
-      "role": "Pharma",
+      "symbol": "POWERGRID.NS",
+      "name": "Power Grid",
+      "sector": "Power",
+      "role": "Power",
       "timelines": {
         "1w": {
-          "changePct": 1.49,
-          "startPrice": 1426.7,
-          "endPrice": 1447.9,
+          "changePct": 0.45,
+          "startPrice": 286.15,
+          "endPrice": 287.45,
           "points": [
-            36,
-            61,
-            60,
-            42,
-            18,
-            82
-          ]
-        },
-        "2w": {
-          "changePct": -1.66,
-          "startPrice": 1472.3,
-          "endPrice": 1447.9,
-          "points": [
-            82,
-            58,
-            34,
-            45,
-            43,
-            28,
-            41,
-            41,
-            31,
-            18,
-            53
-          ]
-        },
-        "4w": {
-          "changePct": 0.54,
-          "startPrice": 1440.1,
-          "endPrice": 1447.9,
-          "points": [
-            44,
-            44,
-            60,
-            74,
-            63,
-            63,
-            65,
-            82,
-            58,
-            34,
-            45,
-            43,
-            28,
-            41,
-            41,
-            31,
-            18,
-            53
-          ]
-        }
-      },
-      "changePct": 0.54,
-      "startPrice": 1440.1,
-      "endPrice": 1447.9,
-      "points": [
-        44,
-        44,
-        60,
-        74,
-        63,
-        63,
-        65,
-        82,
-        58,
-        34,
-        45,
-        43,
-        28,
-        41,
-        41,
-        31,
-        18,
-        53
-      ]
-    },
-    {
-      "symbol": "BPCL.NS",
-      "name": "BPCL",
-      "sector": "Energy",
-      "role": "Energy",
-      "timelines": {
-        "1w": {
-          "changePct": 1.09,
-          "startPrice": 307.55,
-          "endPrice": 310.9,
-          "points": [
-            32,
-            18,
-            45,
-            60,
-            82,
-            53
-          ]
-        },
-        "2w": {
-          "changePct": 0.89,
-          "startPrice": 308.15,
-          "endPrice": 310.9,
-          "points": [
-            43,
-            73,
-            18,
-            43,
-            51,
-            39,
-            28,
-            50,
-            63,
-            82,
-            57
-          ]
-        },
-        "4w": {
-          "changePct": 0.37,
-          "startPrice": 309.75,
-          "endPrice": 310.9,
-          "points": [
-            57,
-            57,
-            18,
-            30,
-            33,
-            60,
-            50,
-            50,
-            75,
-            30,
-            50,
-            57,
-            47,
-            38,
-            56,
-            67,
-            82,
-            62
-          ]
-        }
-      },
-      "changePct": 0.37,
-      "startPrice": 309.75,
-      "endPrice": 310.9,
-      "points": [
-        57,
-        57,
-        18,
-        30,
-        33,
-        60,
-        50,
-        50,
-        75,
-        30,
-        50,
-        57,
-        47,
-        38,
-        56,
-        67,
-        82,
-        62
-      ]
-    },
-    {
-      "symbol": "BEL.NS",
-      "name": "Bharat Electronics",
-      "sector": "Defence",
-      "role": "Defence",
-      "timelines": {
-        "1w": {
-          "changePct": -0.78,
-          "startPrice": 410.8,
-          "endPrice": 407.6,
-          "points": [
-            80,
-            68,
-            82,
-            18,
-            57,
-            26
-          ]
-        },
-        "2w": {
-          "changePct": -4.22,
-          "startPrice": 425.55,
-          "endPrice": 407.6,
-          "points": [
-            82,
-            61,
-            23,
-            18,
-            47,
-            33,
-            31,
-            34,
-            21,
-            29,
-            23
-          ]
-        },
-        "4w": {
-          "changePct": 0.1,
-          "startPrice": 407.2,
-          "endPrice": 407.6,
-          "points": [
-            21,
-            21,
-            36,
-            37,
-            51,
-            47,
-            57,
-            82,
-            61,
-            23,
-            18,
-            47,
-            33,
-            31,
-            34,
-            21,
-            29,
-            23
-          ]
-        }
-      },
-      "changePct": 0.1,
-      "startPrice": 407.2,
-      "endPrice": 407.6,
-      "points": [
-        21,
-        21,
-        36,
-        37,
-        51,
-        47,
-        57,
-        82,
-        61,
-        23,
-        18,
-        47,
-        33,
-        31,
-        34,
-        21,
-        29,
-        23
-      ]
-    },
-    {
-      "symbol": "HINDALCO.NS",
-      "name": "Hindalco",
-      "sector": "Metals",
-      "role": "Metals",
-      "timelines": {
-        "1w": {
-          "changePct": -1.43,
-          "startPrice": 966.85,
-          "endPrice": 953,
-          "points": [
-            66,
-            82,
-            43,
-            50,
-            18,
-            37
-          ]
-        },
-        "2w": {
-          "changePct": -2.79,
-          "startPrice": 980.4,
-          "endPrice": 953,
-          "points": [
-            82,
-            63,
-            67,
-            52,
-            59,
-            58,
-            71,
-            39,
-            45,
-            18,
-            34
-          ]
-        },
-        "4w": {
-          "changePct": -0.02,
-          "startPrice": 953.2,
-          "endPrice": 953,
-          "points": [
-            39,
-            39,
-            56,
-            45,
-            18,
-            33,
-            39,
-            82,
-            65,
-            68,
-            55,
             62,
-            61,
-            72,
-            43,
-            49,
+            18,
+            18,
+            41,
+            82,
+            72
+          ]
+        },
+        "2w": {
+          "changePct": 1.09,
+          "startPrice": 284.35,
+          "endPrice": 287.45,
+          "points": [
+            51,
+            18,
+            30,
+            42,
+            63,
+            64,
             25,
-            39
+            25,
+            45,
+            82,
+            73
+          ]
+        },
+        "4w": {
+          "changePct": 1.25,
+          "startPrice": 283.9,
+          "endPrice": 287.45,
+          "points": [
+            48,
+            65,
+            65,
+            74,
+            78,
+            76,
+            59,
+            51,
+            18,
+            30,
+            42,
+            63,
+            64,
+            25,
+            25,
+            45,
+            82,
+            73
           ]
         }
       },
-      "changePct": -0.02,
-      "startPrice": 953.2,
-      "endPrice": 953,
+      "changePct": 1.25,
+      "startPrice": 283.9,
+      "endPrice": 287.45,
       "points": [
-        39,
-        39,
-        56,
-        45,
-        18,
-        33,
-        39,
-        82,
+        48,
         65,
-        68,
-        55,
-        62,
-        61,
-        72,
-        43,
-        49,
+        65,
+        74,
+        78,
+        76,
+        59,
+        51,
+        18,
+        30,
+        42,
+        63,
+        64,
         25,
-        39
+        25,
+        45,
+        82,
+        73
       ]
     },
     {
@@ -2706,22 +2358,22 @@
       "role": "Materials",
       "timelines": {
         "1w": {
-          "changePct": -0.73,
+          "changePct": 0.23,
           "startPrice": 3144.3,
-          "endPrice": 3121.3,
+          "endPrice": 3151.5,
           "points": [
-            82,
-            54,
-            30,
-            18,
+            76,
             51,
-            61
+            29,
+            18,
+            48,
+            82
           ]
         },
         "2w": {
-          "changePct": -2.85,
+          "changePct": -1.91,
           "startPrice": 3213,
-          "endPrice": 3121.3,
+          "endPrice": 3151.5,
           "points": [
             82,
             72,
@@ -2733,13 +2385,13 @@
             24,
             18,
             35,
-            40
+            54
           ]
         },
         "4w": {
-          "changePct": -0.17,
+          "changePct": 0.8,
           "startPrice": 3126.6,
-          "endPrice": 3121.3,
+          "endPrice": 3151.5,
           "points": [
             42,
             42,
@@ -2758,13 +2410,13 @@
             24,
             18,
             35,
-            40
+            54
           ]
         }
       },
-      "changePct": -0.17,
+      "changePct": 0.8,
       "startPrice": 3126.6,
-      "endPrice": 3121.3,
+      "endPrice": 3151.5,
       "points": [
         42,
         42,
@@ -2783,7 +2435,7 @@
         24,
         18,
         35,
-        40
+        54
       ]
     },
     {
@@ -2793,432 +2445,258 @@
       "role": "Banking",
       "timelines": {
         "1w": {
-          "changePct": 0.54,
-          "startPrice": 1037,
-          "endPrice": 1042.6,
+          "changePct": 3.32,
+          "startPrice": 1015.4,
+          "endPrice": 1049.1,
           "points": [
-            66,
             18,
-            51,
-            53,
+            39,
+            41,
+            59,
             82,
-            78
+            66
           ]
         },
         "2w": {
-          "changePct": 0.47,
-          "startPrice": 1037.7,
-          "endPrice": 1042.6,
+          "changePct": 1.06,
+          "startPrice": 1038.1,
+          "endPrice": 1049.1,
           "points": [
-            67,
-            68,
-            21,
-            33,
-            64,
-            66,
-            18,
             51,
-            53,
+            20,
+            28,
+            48,
+            49,
+            18,
+            39,
+            41,
+            59,
             82,
-            78
+            66
           ]
         },
         "4w": {
-          "changePct": -0.27,
+          "changePct": 0.35,
           "startPrice": 1045.4,
-          "endPrice": 1042.6,
+          "endPrice": 1049.1,
           "points": [
-            71,
-            71,
-            55,
-            38,
-            75,
-            82,
             61,
-            57,
-            58,
-            21,
-            30,
-            54,
-            56,
+            48,
+            35,
+            64,
+            70,
+            53,
+            50,
+            51,
+            20,
+            28,
+            48,
+            49,
             18,
-            44,
-            46,
-            69,
+            39,
+            41,
+            59,
+            82,
             66
           ]
         }
       },
-      "changePct": -0.27,
+      "changePct": 0.35,
       "startPrice": 1045.4,
-      "endPrice": 1042.6,
+      "endPrice": 1049.1,
       "points": [
-        71,
-        71,
-        55,
-        38,
-        75,
-        82,
         61,
-        57,
-        58,
-        21,
-        30,
-        54,
-        56,
+        48,
+        35,
+        64,
+        70,
+        53,
+        50,
+        51,
+        20,
+        28,
+        48,
+        49,
         18,
-        44,
-        46,
-        69,
+        39,
+        41,
+        59,
+        82,
         66
       ]
     },
     {
-      "symbol": "M&M.NS",
-      "name": "Mahindra & Mahindra",
-      "sector": "Auto",
-      "role": "Auto",
+      "symbol": "WIPRO.NS",
+      "name": "Wipro",
+      "sector": "IT",
+      "role": "IT",
       "timelines": {
         "1w": {
-          "changePct": 0.08,
-          "startPrice": 3160.4,
-          "endPrice": 3162.8,
+          "changePct": -1.17,
+          "startPrice": 177.14,
+          "endPrice": 175.06,
           "points": [
             70,
-            25,
             18,
-            41,
             82,
-            71
-          ]
-        },
-        "2w": {
-          "changePct": -1.2,
-          "startPrice": 3201.2,
-          "endPrice": 3162.8,
-          "points": [
-            82,
-            79,
-            29,
-            19,
-            43,
-            60,
-            24,
-            18,
-            37,
-            70,
-            61
-          ]
-        },
-        "4w": {
-          "changePct": -0.61,
-          "startPrice": 3182.2,
-          "endPrice": 3162.8,
-          "points": [
-            73,
-            73,
-            30,
-            18,
-            48,
-            70,
-            51,
-            82,
-            80,
-            34,
-            26,
-            47,
-            62,
-            30,
-            25,
-            42,
-            71,
-            63
-          ]
-        }
-      },
-      "changePct": -0.61,
-      "startPrice": 3182.2,
-      "endPrice": 3162.8,
-      "points": [
-        73,
-        73,
-        30,
-        18,
-        48,
-        70,
-        51,
-        82,
-        80,
-        34,
-        26,
-        47,
-        62,
-        30,
-        25,
-        42,
-        71,
-        63
-      ]
-    },
-    {
-      "symbol": "SHRIRAMFIN.NS",
-      "name": "Shriram Finance",
-      "sector": "Lending",
-      "role": "Lending",
-      "timelines": {
-        "1w": {
-          "changePct": -2.27,
-          "startPrice": 1048.1,
-          "endPrice": 1024.3,
-          "points": [
-            82,
-            18,
-            55,
-            38,
-            57,
-            37
-          ]
-        },
-        "2w": {
-          "changePct": -3.58,
-          "startPrice": 1062.3,
-          "endPrice": 1024.3,
-          "points": [
-            77,
-            82,
-            19,
-            40,
-            55,
-            59,
-            18,
-            42,
-            31,
-            43,
-            31
-          ]
-        },
-        "4w": {
-          "changePct": -0.73,
-          "startPrice": 1031.8,
-          "endPrice": 1024.3,
-          "points": [
-            40,
-            40,
-            41,
-            52,
-            59,
-            82,
-            78,
-            77,
-            82,
-            19,
-            40,
-            55,
-            59,
-            18,
-            42,
-            31,
-            43,
-            31
-          ]
-        }
-      },
-      "changePct": -0.73,
-      "startPrice": 1031.8,
-      "endPrice": 1024.3,
-      "points": [
-        40,
-        40,
-        41,
-        52,
-        59,
-        82,
-        78,
-        77,
-        82,
-        19,
-        40,
-        55,
-        59,
-        18,
-        42,
-        31,
-        43,
-        31
-      ]
-    },
-    {
-      "symbol": "COALINDIA.NS",
-      "name": "Coal India",
-      "sector": "Mining",
-      "role": "Mining",
-      "timelines": {
-        "1w": {
-          "changePct": 0.07,
-          "startPrice": 430.2,
-          "endPrice": 430.5,
-          "points": [
-            74,
-            82,
-            22,
-            18,
-            24,
-            80
-          ]
-        },
-        "2w": {
-          "changePct": -0.43,
-          "startPrice": 432.35,
-          "endPrice": 430.5,
-          "points": [
-            82,
-            38,
-            40,
-            51,
-            43,
+            46,
             54,
-            60,
+            26
+          ]
+        },
+        "2w": {
+          "changePct": 1.19,
+          "startPrice": 173,
+          "endPrice": 175.06,
+          "points": [
             21,
             18,
-            22,
-            58
-          ]
-        },
-        "4w": {
-          "changePct": -1.13,
-          "startPrice": 435.4,
-          "endPrice": 430.5,
-          "points": [
-            47,
-            47,
-            82,
-            61,
-            45,
-            60,
-            60,
-            36,
-            24,
-            24,
-            27,
-            25,
-            28,
-            30,
-            19,
             18,
-            19,
-            30
-          ]
-        }
-      },
-      "changePct": -1.13,
-      "startPrice": 435.4,
-      "endPrice": 430.5,
-      "points": [
-        47,
-        47,
-        82,
-        61,
-        45,
-        60,
-        60,
-        36,
-        24,
-        24,
-        27,
-        25,
-        28,
-        30,
-        19,
-        18,
-        19,
-        30
-      ]
-    },
-    {
-      "symbol": "TATASTEEL.NS",
-      "name": "Tata Steel",
-      "sector": "Metals",
-      "role": "Metals",
-      "timelines": {
-        "1w": {
-          "changePct": -0.34,
-          "startPrice": 187.11,
-          "endPrice": 186.47,
-          "points": [
-            57,
+            49,
             82,
-            18,
-            23,
-            31,
+            68,
+            40,
+            74,
+            55,
+            59,
             44
           ]
         },
-        "2w": {
-          "changePct": -2.31,
-          "startPrice": 190.87,
-          "endPrice": 186.47,
-          "points": [
-            79,
-            67,
-            50,
-            47,
-            82,
-            38,
-            50,
-            18,
-            20,
-            25,
-            31
-          ]
-        },
         "4w": {
-          "changePct": -1.19,
-          "startPrice": 188.71,
-          "endPrice": 186.47,
+          "changePct": 0.03,
+          "startPrice": 175,
+          "endPrice": 175.06,
           "points": [
             56,
-            56,
-            65,
-            49,
+            59,
+            20,
             18,
-            45,
-            67,
-            79,
-            67,
+            48,
+            64,
             50,
-            47,
+            40,
+            38,
+            38,
+            59,
             82,
-            39,
-            51,
-            19,
-            21,
-            26,
-            32
+            72,
+            53,
+            77,
+            63,
+            66,
+            56
           ]
         }
       },
-      "changePct": -1.19,
-      "startPrice": 188.71,
-      "endPrice": 186.47,
+      "changePct": 0.03,
+      "startPrice": 175,
+      "endPrice": 175.06,
       "points": [
         56,
-        56,
-        65,
-        49,
+        59,
+        20,
         18,
-        45,
-        67,
-        79,
-        67,
+        48,
+        64,
         50,
-        47,
+        40,
+        38,
+        38,
+        59,
         82,
-        39,
-        51,
-        19,
+        72,
+        53,
+        77,
+        63,
+        66,
+        56
+      ]
+    },
+    {
+      "symbol": "BEL.NS",
+      "name": "Bharat Electronics",
+      "sector": "Defence",
+      "role": "Defence",
+      "timelines": {
+        "1w": {
+          "changePct": -0.73,
+          "startPrice": 410.1,
+          "endPrice": 407.1,
+          "points": [
+            68,
+            82,
+            18,
+            57,
+            35,
+            18
+          ]
+        },
+        "2w": {
+          "changePct": -2.87,
+          "startPrice": 419.15,
+          "endPrice": 407.1,
+          "points": [
+            82,
+            25,
+            18,
+            61,
+            41,
+            37,
+            41,
+            22,
+            34,
+            28,
+            22
+          ]
+        },
+        "4w": {
+          "changePct": -0.02,
+          "startPrice": 407.2,
+          "endPrice": 407.1,
+          "points": [
+            21,
+            36,
+            37,
+            51,
+            47,
+            57,
+            82,
+            61,
+            23,
+            18,
+            47,
+            33,
+            31,
+            34,
+            21,
+            29,
+            24,
+            21
+          ]
+        }
+      },
+      "changePct": -0.02,
+      "startPrice": 407.2,
+      "endPrice": 407.1,
+      "points": [
         21,
-        26,
-        32
+        36,
+        37,
+        51,
+        47,
+        57,
+        82,
+        61,
+        23,
+        18,
+        47,
+        33,
+        31,
+        34,
+        21,
+        29,
+        24,
+        21
       ]
     },
     {
@@ -3228,40 +2706,40 @@
       "role": "Auto",
       "timelines": {
         "1w": {
-          "changePct": 2.82,
+          "changePct": 4.1,
           "startPrice": 7296.5,
-          "endPrice": 7502,
+          "endPrice": 7595.5,
           "points": [
-            22,
+            21,
             18,
+            43,
             46,
-            49,
-            82,
-            68
+            76,
+            82
           ]
         },
         "2w": {
-          "changePct": 0.41,
+          "changePct": 1.66,
           "startPrice": 7471.5,
-          "endPrice": 7502,
+          "endPrice": 7595.5,
           "points": [
-            61,
-            76,
-            49,
-            36,
-            37,
-            22,
-            18,
+            57,
+            70,
             46,
-            49,
-            82,
-            68
+            35,
+            35,
+            21,
+            18,
+            43,
+            46,
+            76,
+            82
           ]
         },
         "4w": {
-          "changePct": -1.26,
+          "changePct": -0.03,
           "startPrice": 7598,
-          "endPrice": 7502,
+          "endPrice": 7595.5,
           "points": [
             82,
             82,
@@ -3280,13 +2758,13 @@
             58,
             60,
             78,
-            70
+            82
           ]
         }
       },
-      "changePct": -1.26,
+      "changePct": -0.03,
       "startPrice": 7598,
-      "endPrice": 7502,
+      "endPrice": 7595.5,
       "points": [
         82,
         82,
@@ -3305,94 +2783,529 @@
         58,
         60,
         78,
-        70
+        82
       ]
     },
     {
-      "symbol": "MARUTI.NS",
-      "name": "Maruti Suzuki",
+      "symbol": "M&M.NS",
+      "name": "Mahindra & Mahindra",
       "sector": "Auto",
       "role": "Auto",
       "timelines": {
         "1w": {
-          "changePct": -0.99,
-          "startPrice": 13695,
-          "endPrice": 13560,
+          "changePct": 2.68,
+          "startPrice": 3093.3,
+          "endPrice": 3176.2,
           "points": [
-            60,
+            25,
             18,
-            37,
-            78,
+            41,
             82,
-            32
+            73,
+            80
           ]
         },
         "2w": {
-          "changePct": -6.2,
-          "startPrice": 14456,
-          "endPrice": 13560,
+          "changePct": -0.63,
+          "startPrice": 3196.4,
+          "endPrice": 3176.2,
           "points": [
-            77,
             82,
-            46,
-            33,
-            40,
-            31,
-            18,
+            29,
+            19,
+            44,
+            62,
             24,
-            36,
-            37,
-            22
+            18,
+            38,
+            72,
+            65,
+            71
           ]
         },
         "4w": {
-          "changePct": -1.35,
-          "startPrice": 13745,
-          "endPrice": 13560,
+          "changePct": -0.19,
+          "startPrice": 3182.2,
+          "endPrice": 3176.2,
           "points": [
-            37,
-            37,
+            73,
+            30,
             18,
-            58,
-            74,
-            71,
-            72,
-            77,
+            48,
+            70,
+            51,
             82,
-            49,
-            36,
-            43,
+            80,
             34,
-            22,
-            28,
-            39,
-            40,
-            26
+            26,
+            47,
+            62,
+            30,
+            25,
+            42,
+            71,
+            65,
+            70
           ]
         }
       },
-      "changePct": -1.35,
-      "startPrice": 13745,
-      "endPrice": 13560,
+      "changePct": -0.19,
+      "startPrice": 3182.2,
+      "endPrice": 3176.2,
       "points": [
-        37,
-        37,
+        73,
+        30,
         18,
+        48,
+        70,
+        51,
+        82,
+        80,
+        34,
+        26,
+        47,
+        62,
+        30,
+        25,
+        42,
+        71,
+        65,
+        70
+      ]
+    },
+    {
+      "symbol": "RELIANCE.NS",
+      "name": "Reliance",
+      "sector": "Energy",
+      "role": "Energy",
+      "timelines": {
+        "1w": {
+          "changePct": 1.57,
+          "startPrice": 1293,
+          "endPrice": 1313.3,
+          "points": [
+            18,
+            23,
+            25,
+            82,
+            74,
+            56
+          ]
+        },
+        "2w": {
+          "changePct": 0.37,
+          "startPrice": 1308.4,
+          "endPrice": 1313.3,
+          "points": [
+            59,
+            18,
+            23,
+            58,
+            44,
+            39,
+            42,
+            44,
+            82,
+            77,
+            65
+          ]
+        },
+        "4w": {
+          "changePct": -0.36,
+          "startPrice": 1318.1,
+          "endPrice": 1313.3,
+          "points": [
+            71,
+            49,
+            40,
+            58,
+            52,
+            53,
+            75,
+            59,
+            18,
+            23,
+            58,
+            44,
+            39,
+            42,
+            44,
+            82,
+            77,
+            65
+          ]
+        }
+      },
+      "changePct": -0.36,
+      "startPrice": 1318.1,
+      "endPrice": 1313.3,
+      "points": [
+        71,
+        49,
+        40,
+        58,
+        52,
+        53,
+        75,
+        59,
+        18,
+        23,
+        58,
+        44,
+        39,
+        42,
+        44,
+        82,
+        77,
+        65
+      ]
+    },
+    {
+      "symbol": "COALINDIA.NS",
+      "name": "Coal India",
+      "sector": "Mining",
+      "role": "Mining",
+      "timelines": {
+        "1w": {
+          "changePct": 0.17,
+          "startPrice": 430.6,
+          "endPrice": 431.35,
+          "points": [
+            70,
+            21,
+            18,
+            23,
+            51,
+            82
+          ]
+        },
+        "2w": {
+          "changePct": 0.56,
+          "startPrice": 428.95,
+          "endPrice": 431.35,
+          "points": [
+            44,
+            45,
+            59,
+            49,
+            64,
+            70,
+            21,
+            18,
+            23,
+            51,
+            82
+          ]
+        },
+        "4w": {
+          "changePct": -0.93,
+          "startPrice": 435.4,
+          "endPrice": 431.35,
+          "points": [
+            47,
+            82,
+            61,
+            45,
+            60,
+            60,
+            36,
+            24,
+            24,
+            27,
+            25,
+            28,
+            30,
+            19,
+            18,
+            19,
+            25,
+            33
+          ]
+        }
+      },
+      "changePct": -0.93,
+      "startPrice": 435.4,
+      "endPrice": 431.35,
+      "points": [
+        47,
+        82,
+        61,
+        45,
+        60,
+        60,
+        36,
+        24,
+        24,
+        27,
+        25,
+        28,
+        30,
+        19,
+        18,
+        19,
+        25,
+        33
+      ]
+    },
+    {
+      "symbol": "HINDALCO.NS",
+      "name": "Hindalco",
+      "sector": "Metals",
+      "role": "Metals",
+      "timelines": {
+        "1w": {
+          "changePct": -2.36,
+          "startPrice": 966.85,
+          "endPrice": 944.05,
+          "points": [
+            66,
+            82,
+            43,
+            50,
+            18,
+            18
+          ]
+        },
+        "2w": {
+          "changePct": -3.71,
+          "startPrice": 980.4,
+          "endPrice": 944.05,
+          "points": [
+            82,
+            63,
+            67,
+            52,
+            59,
+            58,
+            71,
+            39,
+            45,
+            18,
+            18
+          ]
+        },
+        "4w": {
+          "changePct": -0.96,
+          "startPrice": 953.2,
+          "endPrice": 944.05,
+          "points": [
+            39,
+            39,
+            56,
+            45,
+            18,
+            33,
+            39,
+            82,
+            65,
+            68,
+            55,
+            62,
+            61,
+            72,
+            43,
+            49,
+            25,
+            25
+          ]
+        }
+      },
+      "changePct": -0.96,
+      "startPrice": 953.2,
+      "endPrice": 944.05,
+      "points": [
+        39,
+        39,
+        56,
+        45,
+        18,
+        33,
+        39,
+        82,
+        65,
+        68,
+        55,
+        62,
+        61,
+        72,
+        43,
+        49,
+        25,
+        25
+      ]
+    },
+    {
+      "symbol": "CIPLA.NS",
+      "name": "Cipla",
+      "sector": "Pharma",
+      "role": "Pharma",
+      "timelines": {
+        "1w": {
+          "changePct": -1.02,
+          "startPrice": 1438.1,
+          "endPrice": 1423.5,
+          "points": [
+            72,
+            72,
+            48,
+            18,
+            82,
+            31
+          ]
+        },
+        "2w": {
+          "changePct": -1.95,
+          "startPrice": 1451.8,
+          "endPrice": 1423.5,
+          "points": [
+            82,
+            43,
+            62,
+            58,
+            33,
+            56,
+            55,
+            39,
+            18,
+            62,
+            27
+          ]
+        },
+        "4w": {
+          "changePct": -1.15,
+          "startPrice": 1440.1,
+          "endPrice": 1423.5,
+          "points": [
+            44,
+            60,
+            74,
+            63,
+            63,
+            65,
+            82,
+            58,
+            34,
+            45,
+            43,
+            28,
+            41,
+            41,
+            31,
+            18,
+            45,
+            24
+          ]
+        }
+      },
+      "changePct": -1.15,
+      "startPrice": 1440.1,
+      "endPrice": 1423.5,
+      "points": [
+        44,
+        60,
+        74,
+        63,
+        63,
+        65,
+        82,
+        58,
+        34,
+        45,
+        43,
+        28,
+        41,
+        41,
+        31,
+        18,
+        45,
+        24
+      ]
+    },
+    {
+      "symbol": "NTPC.NS",
+      "name": "NTPC",
+      "sector": "Power",
+      "role": "Power",
+      "timelines": {
+        "1w": {
+          "changePct": -0.29,
+          "startPrice": 348.15,
+          "endPrice": 347.15,
+          "points": [
+            82,
+            43,
+            24,
+            18,
+            73,
+            72
+          ]
+        },
+        "2w": {
+          "changePct": -1.99,
+          "startPrice": 354.2,
+          "endPrice": 347.15,
+          "points": [
+            82,
+            53,
+            28,
+            32,
+            69,
+            51,
+            31,
+            21,
+            18,
+            46,
+            45
+          ]
+        },
+        "4w": {
+          "changePct": -1.39,
+          "startPrice": 352.05,
+          "endPrice": 347.15,
+          "points": [
+            58,
+            74,
+            76,
+            81,
+            82,
+            75,
+            74,
+            66,
+            45,
+            25,
+            29,
+            57,
+            43,
+            28,
+            20,
+            18,
+            39,
+            39
+          ]
+        }
+      },
+      "changePct": -1.39,
+      "startPrice": 352.05,
+      "endPrice": 347.15,
+      "points": [
         58,
         74,
-        71,
-        72,
-        77,
+        76,
+        81,
         82,
-        49,
-        36,
+        75,
+        74,
+        66,
+        45,
+        25,
+        29,
+        57,
         43,
-        34,
-        22,
         28,
+        20,
+        18,
         39,
-        40,
-        26
+        39
       ]
     },
     {
@@ -3402,22 +3315,22 @@
       "role": "Consumer",
       "timelines": {
         "1w": {
-          "changePct": 0.39,
+          "changePct": 0.07,
           "startPrice": 2130.6,
-          "endPrice": 2138.9,
+          "endPrice": 2132,
           "points": [
             63,
             49,
             24,
             18,
             82,
-            75
+            65
           ]
         },
         "2w": {
-          "changePct": -2.87,
+          "changePct": -3.18,
           "startPrice": 2202,
-          "endPrice": 2138.9,
+          "endPrice": 2132,
           "points": [
             78,
             82,
@@ -3429,13 +3342,13 @@
             20,
             18,
             44,
-            41
+            37
           ]
         },
         "4w": {
-          "changePct": -1.62,
+          "changePct": -1.94,
           "startPrice": 2174.2,
-          "endPrice": 2138.9,
+          "endPrice": 2132,
           "points": [
             61,
             61,
@@ -3454,13 +3367,13 @@
             20,
             18,
             44,
-            41
+            37
           ]
         }
       },
-      "changePct": -1.62,
+      "changePct": -1.94,
       "startPrice": 2174.2,
-      "endPrice": 2138.9,
+      "endPrice": 2132,
       "points": [
         61,
         61,
@@ -3479,180 +3392,180 @@
         20,
         18,
         44,
-        41
+        37
       ]
     },
     {
-      "symbol": "NTPC.NS",
-      "name": "NTPC",
-      "sector": "Power",
-      "role": "Power",
+      "symbol": "TATASTEEL.NS",
+      "name": "Tata Steel",
+      "sector": "Metals",
+      "role": "Metals",
       "timelines": {
         "1w": {
-          "changePct": -1.54,
-          "startPrice": 351.75,
-          "endPrice": 346.35,
+          "changePct": -1.87,
+          "startPrice": 188.27,
+          "endPrice": 184.75,
           "points": [
             82,
-            59,
-            34,
-            22,
-            18,
-            47
+            27,
+            31,
+            39,
+            48,
+            18
           ]
         },
         "2w": {
-          "changePct": -2.78,
-          "startPrice": 356.25,
-          "endPrice": 346.35,
+          "changePct": -2.66,
+          "startPrice": 189.79,
+          "endPrice": 184.75,
           "points": [
+            68,
+            52,
+            49,
             82,
-            73,
-            48,
-            26,
-            30,
-            62,
-            46,
-            29,
-            21,
-            18,
-            38
-          ]
-        },
-        "4w": {
-          "changePct": -1.62,
-          "startPrice": 352.05,
-          "endPrice": 346.35,
-          "points": [
-            58,
-            58,
-            74,
-            76,
-            81,
-            82,
-            75,
-            74,
-            66,
-            45,
+            41,
+            53,
+            23,
             25,
             29,
+            34,
+            18
+          ]
+        },
+        "4w": {
+          "changePct": -2.1,
+          "startPrice": 188.71,
+          "endPrice": 184.75,
+          "points": [
             57,
-            43,
-            28,
-            20,
-            18,
-            36
+            66,
+            51,
+            22,
+            47,
+            68,
+            79,
+            68,
+            52,
+            49,
+            82,
+            41,
+            53,
+            23,
+            25,
+            29,
+            34,
+            18
           ]
         }
       },
-      "changePct": -1.62,
-      "startPrice": 352.05,
-      "endPrice": 346.35,
+      "changePct": -2.1,
+      "startPrice": 188.71,
+      "endPrice": 184.75,
       "points": [
-        58,
-        58,
-        74,
-        76,
-        81,
-        82,
-        75,
-        74,
+        57,
         66,
-        45,
+        51,
+        22,
+        47,
+        68,
+        79,
+        68,
+        52,
+        49,
+        82,
+        41,
+        53,
+        23,
         25,
         29,
-        57,
-        43,
-        28,
-        20,
-        18,
-        36
+        34,
+        18
       ]
     },
     {
-      "symbol": "HDFCBANK.NS",
-      "name": "HDFC Bank",
-      "sector": "Banking",
-      "role": "Banking",
+      "symbol": "MARUTI.NS",
+      "name": "Maruti Suzuki",
+      "sector": "Auto",
+      "role": "Auto",
       "timelines": {
         "1w": {
-          "changePct": -4.58,
-          "startPrice": 817.95,
-          "endPrice": 780.5,
+          "changePct": -2.28,
+          "startPrice": 13695,
+          "endPrice": 13383,
           "points": [
+            66,
+            34,
+            48,
             79,
-            65,
-            75,
-            64,
             82,
             18
           ]
         },
         "2w": {
-          "changePct": -5.95,
-          "startPrice": 829.85,
-          "endPrice": 780.5,
+          "changePct": -7.42,
+          "startPrice": 14456,
+          "endPrice": 13383,
           "points": [
+            77,
             82,
-            81,
-            57,
-            66,
-            76,
-            67,
-            55,
-            63,
-            54,
-            69,
+            49,
+            37,
+            44,
+            35,
+            24,
+            29,
+            40,
+            41,
             18
           ]
         },
         "4w": {
-          "changePct": -1.98,
-          "startPrice": 796.3,
-          "endPrice": 780.5,
+          "changePct": -2.63,
+          "startPrice": 13745,
+          "endPrice": 13383,
           "points": [
             38,
             38,
-            42,
-            41,
-            38,
-            38,
-            45,
+            20,
+            59,
+            74,
+            71,
+            72,
+            77,
             82,
-            81,
-            57,
-            66,
-            76,
-            67,
-            55,
-            63,
-            54,
-            69,
+            49,
+            37,
+            44,
+            35,
+            24,
+            29,
+            40,
+            41,
             18
           ]
         }
       },
-      "changePct": -1.98,
-      "startPrice": 796.3,
-      "endPrice": 780.5,
+      "changePct": -2.63,
+      "startPrice": 13745,
+      "endPrice": 13383,
       "points": [
         38,
         38,
-        42,
-        41,
-        38,
-        38,
-        45,
+        20,
+        59,
+        74,
+        71,
+        72,
+        77,
         82,
-        81,
-        57,
-        66,
-        76,
-        67,
-        55,
-        63,
-        54,
-        69,
+        49,
+        37,
+        44,
+        35,
+        24,
+        29,
+        40,
+        41,
         18
       ]
     },
@@ -3663,24 +3576,23 @@
       "role": "Consumer",
       "timelines": {
         "1w": {
-          "changePct": 0.98,
-          "startPrice": 279.65,
-          "endPrice": 282.4,
+          "changePct": 2.07,
+          "startPrice": 275.55,
+          "endPrice": 281.25,
           "points": [
-            56,
             18,
             28,
-            54,
-            66,
-            82
+            52,
+            64,
+            82,
+            69
           ]
         },
         "2w": {
-          "changePct": -2.03,
-          "startPrice": 288.25,
-          "endPrice": 282.4,
+          "changePct": -2.6,
+          "startPrice": 288.75,
+          "endPrice": 281.25,
           "points": [
-            80,
             82,
             43,
             50,
@@ -3690,15 +3602,15 @@
             23,
             36,
             43,
-            51
+            53,
+            46
           ]
         },
         "4w": {
-          "changePct": -2.62,
+          "changePct": -3.02,
           "startPrice": 290,
-          "endPrice": 282.4,
+          "endPrice": 281.25,
           "points": [
-            79,
             79,
             82,
             66,
@@ -3715,15 +3627,15 @@
             23,
             34,
             40,
-            47
+            48,
+            42
           ]
         }
       },
-      "changePct": -2.62,
+      "changePct": -3.02,
       "startPrice": 290,
-      "endPrice": 282.4,
+      "endPrice": 281.25,
       "points": [
-        79,
         79,
         82,
         66,
@@ -3740,7 +3652,95 @@
         23,
         34,
         40,
-        47
+        48,
+        42
+      ]
+    },
+    {
+      "symbol": "HDFCBANK.NS",
+      "name": "HDFC Bank",
+      "sector": "Banking",
+      "role": "Banking",
+      "timelines": {
+        "1w": {
+          "changePct": -5.37,
+          "startPrice": 809.4,
+          "endPrice": 765.9,
+          "points": [
+            70,
+            77,
+            69,
+            82,
+            32,
+            18
+          ]
+        },
+        "2w": {
+          "changePct": -7.64,
+          "startPrice": 829.3,
+          "endPrice": 765.9,
+          "points": [
+            82,
+            63,
+            70,
+            78,
+            71,
+            62,
+            68,
+            61,
+            72,
+            30,
+            18
+          ]
+        },
+        "4w": {
+          "changePct": -3.82,
+          "startPrice": 796.3,
+          "endPrice": 765.9,
+          "points": [
+            48,
+            51,
+            50,
+            48,
+            48,
+            53,
+            82,
+            81,
+            62,
+            70,
+            77,
+            70,
+            62,
+            68,
+            60,
+            72,
+            30,
+            18
+          ]
+        }
+      },
+      "changePct": -3.82,
+      "startPrice": 796.3,
+      "endPrice": 765.9,
+      "points": [
+        48,
+        51,
+        50,
+        48,
+        48,
+        53,
+        82,
+        81,
+        62,
+        70,
+        77,
+        70,
+        62,
+        68,
+        60,
+        72,
+        30,
+        18
       ]
     },
     {
@@ -3750,24 +3750,23 @@
       "role": "Consumer",
       "timelines": {
         "1w": {
-          "changePct": -0.78,
-          "startPrice": 1098.6,
-          "endPrice": 1090,
+          "changePct": -1.02,
+          "startPrice": 1097.6,
+          "endPrice": 1086.4,
           "points": [
             82,
-            77,
             18,
-            33,
-            33,
-            40
+            34,
+            34,
+            52,
+            23
           ]
         },
         "2w": {
-          "changePct": -2.5,
-          "startPrice": 1117.9,
-          "endPrice": 1090,
+          "changePct": -3.43,
+          "startPrice": 1125,
+          "endPrice": 1086.4,
           "points": [
-            70,
             82,
             25,
             52,
@@ -3777,15 +3776,15 @@
             18,
             23,
             23,
-            25
+            28,
+            19
           ]
         },
         "4w": {
-          "changePct": -3.65,
+          "changePct": -3.97,
           "startPrice": 1131.3,
-          "endPrice": 1090,
+          "endPrice": 1086.4,
           "points": [
-            82,
             82,
             61,
             18,
@@ -3802,15 +3801,15 @@
             29,
             33,
             33,
-            35
+            37,
+            30
           ]
         }
       },
-      "changePct": -3.65,
+      "changePct": -3.97,
       "startPrice": 1131.3,
-      "endPrice": 1090,
+      "endPrice": 1086.4,
       "points": [
-        82,
         82,
         61,
         18,
@@ -3827,7 +3826,8 @@
         29,
         33,
         33,
-        35
+        37,
+        30
       ]
     },
     {
@@ -3837,22 +3837,22 @@
       "role": "Insurance",
       "timelines": {
         "1w": {
-          "changePct": -1.76,
+          "changePct": -2.49,
           "startPrice": 573.4,
-          "endPrice": 563.3,
+          "endPrice": 559.1,
           "points": [
             82,
             18,
             66,
             62,
             48,
-            46
+            32
           ]
         },
         "2w": {
-          "changePct": -0.16,
+          "changePct": -0.9,
           "startPrice": 564.2,
-          "endPrice": 563.3,
+          "endPrice": 559.1,
           "points": [
             55,
             79,
@@ -3864,13 +3864,13 @@
             68,
             65,
             53,
-            52
+            40
           ]
         },
         "4w": {
-          "changePct": -3.78,
+          "changePct": -4.5,
           "startPrice": 585.45,
-          "endPrice": 563.3,
+          "endPrice": 559.1,
           "points": [
             82,
             82,
@@ -3889,13 +3889,13 @@
             50,
             48,
             40,
-            40
+            32
           ]
         }
       },
-      "changePct": -3.78,
+      "changePct": -4.5,
       "startPrice": 585.45,
-      "endPrice": 563.3,
+      "endPrice": 559.1,
       "points": [
         82,
         82,
@@ -3914,7 +3914,7 @@
         50,
         48,
         40,
-        40
+        32
       ]
     },
     {
@@ -3924,24 +3924,23 @@
       "role": "Banking",
       "timelines": {
         "1w": {
-          "changePct": -1.07,
-          "startPrice": 384.65,
-          "endPrice": 380.55,
+          "changePct": 1.43,
+          "startPrice": 378.65,
+          "endPrice": 384.05,
           "points": [
-            55,
             25,
             24,
             18,
             82,
-            35
+            42,
+            52
           ]
         },
         "2w": {
-          "changePct": -0.2,
-          "startPrice": 381.3,
-          "endPrice": 380.55,
+          "changePct": 0.62,
+          "startPrice": 381.7,
+          "endPrice": 384.05,
           "points": [
-            54,
             55,
             18,
             41,
@@ -3951,15 +3950,15 @@
             45,
             41,
             82,
-            52
+            57,
+            63
           ]
         },
         "4w": {
-          "changePct": -6.96,
+          "changePct": -6.1,
           "startPrice": 409,
-          "endPrice": 380.55,
+          "endPrice": 384.05,
           "points": [
-            82,
             82,
             60,
             54,
@@ -3976,15 +3975,15 @@
             32,
             30,
             51,
-            35
+            38,
+            41
           ]
         }
       },
-      "changePct": -6.96,
+      "changePct": -6.1,
       "startPrice": 409,
-      "endPrice": 380.55,
+      "endPrice": 384.05,
       "points": [
-        82,
         82,
         60,
         54,
@@ -4001,7 +4000,8 @@
         32,
         30,
         51,
-        35
+        38,
+        41
       ]
     },
     {
@@ -4011,84 +4011,171 @@
       "role": "Banking",
       "timelines": {
         "1w": {
-          "changePct": -4.62,
-          "startPrice": 1319.4,
-          "endPrice": 1258.4,
+          "changePct": -4.71,
+          "startPrice": 1317.6,
+          "endPrice": 1255.6,
           "points": [
-            74,
             72,
-            67,
-            63,
+            68,
+            64,
             82,
+            18,
             18
           ]
         },
         "2w": {
-          "changePct": -6.06,
-          "startPrice": 1339.6,
-          "endPrice": 1258.4,
+          "changePct": -6.37,
+          "startPrice": 1341,
+          "endPrice": 1255.6,
           "points": [
-            81,
             82,
             58,
-            48,
+            49,
             69,
-            65,
+            66,
             64,
             60,
-            56,
-            72,
+            57,
+            73,
+            18,
             18
           ]
         },
         "4w": {
-          "changePct": -8.63,
+          "changePct": -8.83,
           "startPrice": 1377.2,
-          "endPrice": 1258.4,
+          "endPrice": 1255.6,
           "points": [
-            82,
             82,
             71,
             65,
-            77,
+            78,
             74,
+            64,
+            62,
             63,
-            62,
-            62,
             46,
-            39,
-            53,
+            40,
+            54,
+            52,
             51,
-            50,
-            47,
+            48,
             45,
             56,
+            18,
             18
           ]
         }
       },
-      "changePct": -8.63,
+      "changePct": -8.83,
       "startPrice": 1377.2,
-      "endPrice": 1258.4,
+      "endPrice": 1255.6,
       "points": [
-        82,
         82,
         71,
         65,
-        77,
+        78,
         74,
+        64,
+        62,
         63,
-        62,
-        62,
         46,
-        39,
-        53,
+        40,
+        54,
+        52,
         51,
-        50,
-        47,
+        48,
         45,
         56,
+        18,
         18
+      ]
+    },
+    {
+      "symbol": "LT.NS",
+      "name": "Larsen & Toubro",
+      "sector": "Infrastructure",
+      "role": "Infrastructure",
+      "timelines": {
+        "1w": {
+          "changePct": -0.5,
+          "startPrice": 3848.7,
+          "endPrice": 3829.5,
+          "points": [
+            82,
+            25,
+            18,
+            52,
+            73,
+            65
+          ]
+        },
+        "2w": {
+          "changePct": -4.07,
+          "startPrice": 3991.9,
+          "endPrice": 3829.5,
+          "points": [
+            82,
+            52,
+            51,
+            68,
+            63,
+            40,
+            20,
+            18,
+            30,
+            37,
+            34
+          ]
+        },
+        "4w": {
+          "changePct": -9.18,
+          "startPrice": 4216.4,
+          "endPrice": 3829.5,
+          "points": [
+            82,
+            75,
+            71,
+            64,
+            59,
+            54,
+            57,
+            49,
+            35,
+            34,
+            43,
+            40,
+            29,
+            19,
+            18,
+            24,
+            27,
+            26
+          ]
+        }
+      },
+      "changePct": -9.18,
+      "startPrice": 4216.4,
+      "endPrice": 3829.5,
+      "points": [
+        82,
+        75,
+        71,
+        64,
+        59,
+        54,
+        57,
+        49,
+        35,
+        34,
+        43,
+        40,
+        29,
+        19,
+        18,
+        24,
+        27,
+        26
       ]
     },
     {
@@ -4098,22 +4185,22 @@
       "role": "Retail",
       "timelines": {
         "1w": {
-          "changePct": 0.48,
+          "changePct": 0.28,
           "startPrice": 2900.1,
-          "endPrice": 2914,
+          "endPrice": 2908.1,
           "points": [
-            70,
-            42,
-            41,
-            34,
+            74,
+            44,
+            43,
+            35,
             18,
             82
           ]
         },
         "2w": {
-          "changePct": -12.85,
+          "changePct": -13.03,
           "startPrice": 3343.8,
-          "endPrice": 2914,
+          "endPrice": 2908.1,
           "points": [
             82,
             29,
@@ -4125,13 +4212,13 @@
             21,
             20,
             18,
-            27
+            26
           ]
         },
         "4w": {
-          "changePct": -9.4,
+          "changePct": -9.58,
           "startPrice": 3216.2,
-          "endPrice": 2914,
+          "endPrice": 2908.1,
           "points": [
             66,
             66,
@@ -4150,13 +4237,13 @@
             21,
             20,
             18,
-            27
+            26
           ]
         }
       },
-      "changePct": -9.4,
+      "changePct": -9.58,
       "startPrice": 3216.2,
-      "endPrice": 2914,
+      "endPrice": 2908.1,
       "points": [
         66,
         66,
@@ -4175,94 +4262,7 @@
         21,
         20,
         18,
-        27
-      ]
-    },
-    {
-      "symbol": "LT.NS",
-      "name": "Larsen & Toubro",
-      "sector": "Infrastructure",
-      "role": "Infrastructure",
-      "timelines": {
-        "1w": {
-          "changePct": -2.87,
-          "startPrice": 3928.5,
-          "endPrice": 3815.6,
-          "points": [
-            82,
-            49,
-            21,
-            18,
-            34,
-            35
-          ]
-        },
-        "2w": {
-          "changePct": -5.58,
-          "startPrice": 4041,
-          "endPrice": 3815.6,
-          "points": [
-            82,
-            70,
-            46,
-            45,
-            59,
-            55,
-            36,
-            20,
-            18,
-            27,
-            28
-          ]
-        },
-        "4w": {
-          "changePct": -9.51,
-          "startPrice": 4216.4,
-          "endPrice": 3815.6,
-          "points": [
-            82,
-            82,
-            75,
-            71,
-            64,
-            59,
-            54,
-            57,
-            49,
-            35,
-            34,
-            43,
-            40,
-            29,
-            19,
-            18,
-            24,
-            24
-          ]
-        }
-      },
-      "changePct": -9.51,
-      "startPrice": 4216.4,
-      "endPrice": 3815.6,
-      "points": [
-        82,
-        82,
-        75,
-        71,
-        64,
-        59,
-        54,
-        57,
-        49,
-        35,
-        34,
-        43,
-        40,
-        29,
-        19,
-        18,
-        24,
-        24
+        26
       ]
     },
     {
@@ -4272,22 +4272,22 @@
       "role": "Pharma",
       "timelines": {
         "1w": {
-          "changePct": -1.63,
+          "changePct": -2.09,
           "startPrice": 1234.5,
-          "endPrice": 1214.4,
+          "endPrice": 1208.7,
           "points": [
-            61,
+            62,
             82,
-            51,
-            42,
-            18,
-            24
+            53,
+            45,
+            22,
+            18
           ]
         },
         "2w": {
-          "changePct": -11.22,
+          "changePct": -11.64,
           "startPrice": 1367.9,
-          "endPrice": 1214.4,
+          "endPrice": 1208.7,
           "points": [
             82,
             77,
@@ -4295,61 +4295,61 @@
             42,
             32,
             28,
-            32,
-            25,
-            23,
-            18,
-            19
+            33,
+            26,
+            24,
+            19,
+            18
           ]
         },
         "4w": {
-          "changePct": -10.08,
+          "changePct": -10.5,
           "startPrice": 1350.5,
-          "endPrice": 1214.4,
+          "endPrice": 1208.7,
           "points": [
             72,
             72,
             82,
             75,
             68,
-            70,
+            71,
             81,
             79,
             74,
             72,
             41,
-            31,
-            27,
             32,
-            25,
-            23,
-            18,
-            19
+            28,
+            32,
+            26,
+            24,
+            19,
+            18
           ]
         }
       },
-      "changePct": -10.08,
+      "changePct": -10.5,
       "startPrice": 1350.5,
-      "endPrice": 1214.4,
+      "endPrice": 1208.7,
       "points": [
         72,
         72,
         82,
         75,
         68,
-        70,
+        71,
         81,
         79,
         74,
         72,
         41,
-        31,
-        27,
         32,
-        25,
-        23,
-        18,
-        19
+        28,
+        32,
+        26,
+        24,
+        19,
+        18
       ]
     }
   ],
@@ -4361,42 +4361,41 @@
       "role": "Large-cap pulse",
       "timelines": {
         "1w": {
-          "changePct": -0.08,
-          "startPrice": 24211,
-          "endPrice": 24191.45,
+          "changePct": 0.5,
+          "startPrice": 24052.05,
+          "endPrice": 24171.65,
           "points": [
-            54,
             18,
             24,
             23,
             82,
-            50
+            60,
+            45
           ]
         },
         "2w": {
-          "changePct": -0.98,
-          "startPrice": 24430.35,
-          "endPrice": 24191.45,
+          "changePct": -0.93,
+          "startPrice": 24398.7,
+          "endPrice": 24171.65,
           "points": [
             82,
-            78,
             18,
-            27,
-            56,
-            56,
-            38,
-            41,
-            40,
-            71,
+            28,
+            58,
+            59,
+            39,
+            42,
+            42,
+            74,
+            62,
             54
           ]
         },
         "4w": {
-          "changePct": 0.71,
-          "startPrice": 24021.65,
-          "endPrice": 24191.45,
+          "changePct": 0.48,
+          "startPrice": 24056,
+          "endPrice": 24171.65,
           "points": [
-            36,
             40,
             27,
             18,
@@ -4413,15 +4412,15 @@
             42,
             41,
             71,
-            55
+            60,
+            53
           ]
         }
       },
-      "changePct": 0.71,
-      "startPrice": 24021.65,
-      "endPrice": 24191.45,
+      "changePct": 0.48,
+      "startPrice": 24056,
+      "endPrice": 24171.65,
       "points": [
-        36,
         40,
         27,
         18,
@@ -4438,7 +4437,8 @@
         42,
         41,
         71,
-        55
+        60,
+        53
       ]
     },
     {
@@ -4448,42 +4448,41 @@
       "role": "BSE benchmark",
       "timelines": {
         "1w": {
-          "changePct": -0.03,
-          "startPrice": 77616.4,
-          "endPrice": 77594.16,
+          "changePct": 0.53,
+          "startPrice": 77054.94,
+          "endPrice": 77466.96,
           "points": [
-            51,
             18,
             26,
             26,
             82,
-            49
+            56,
+            42
           ]
         },
         "2w": {
-          "changePct": -0.88,
-          "startPrice": 78285.07,
-          "endPrice": 77594.16,
+          "changePct": -0.91,
+          "startPrice": 78180.72,
+          "endPrice": 77466.96,
           "points": [
             82,
-            78,
             18,
             27,
-            56,
-            58,
-            38,
-            42,
-            43,
-            77,
-            57
+            59,
+            60,
+            39,
+            44,
+            44,
+            81,
+            64,
+            55
           ]
         },
         "4w": {
-          "changePct": 0.78,
-          "startPrice": 76991.22,
-          "endPrice": 77594.16,
+          "changePct": 0.48,
+          "startPrice": 77100.47,
+          "endPrice": 77466.96,
           "points": [
-            36,
             40,
             27,
             18,
@@ -4500,15 +4499,15 @@
             43,
             43,
             77,
-            58
+            62,
+            53
           ]
         }
       },
-      "changePct": 0.78,
-      "startPrice": 76991.22,
-      "endPrice": 77594.16,
+      "changePct": 0.48,
+      "startPrice": 77100.47,
+      "endPrice": 77466.96,
       "points": [
-        36,
         40,
         27,
         18,
@@ -4525,7 +4524,8 @@
         43,
         43,
         77,
-        58
+        62,
+        53
       ]
     },
     {
@@ -4535,24 +4535,23 @@
       "role": "Banking strength",
       "timelines": {
         "1w": {
-          "changePct": -0.79,
-          "startPrice": 58131.45,
-          "endPrice": 57669.4,
+          "changePct": 0.71,
+          "startPrice": 57462.3,
+          "endPrice": 57869.05,
           "points": [
-            58,
             18,
             36,
             25,
             82,
-            31
+            47,
+            43
           ]
         },
         "2w": {
-          "changePct": -1.07,
-          "startPrice": 58291.5,
-          "endPrice": 57669.4,
+          "changePct": -0.57,
+          "startPrice": 58200.7,
+          "endPrice": 57869.05,
           "points": [
-            74,
             70,
             18,
             36,
@@ -4562,15 +4561,15 @@
             55,
             48,
             82,
-            51
+            61,
+            59
           ]
         },
         "4w": {
-          "changePct": -0.83,
-          "startPrice": 58150.35,
-          "endPrice": 57669.4,
+          "changePct": -0.53,
+          "startPrice": 58177.05,
+          "endPrice": 57869.05,
           "points": [
-            69,
             70,
             53,
             47,
@@ -4587,15 +4586,15 @@
             55,
             48,
             82,
-            51
+            61,
+            59
           ]
         }
       },
-      "changePct": -0.83,
-      "startPrice": 58150.35,
-      "endPrice": 57669.4,
+      "changePct": -0.53,
+      "startPrice": 58177.05,
+      "endPrice": 57869.05,
       "points": [
-        69,
         70,
         53,
         47,
@@ -4612,7 +4611,8 @@
         55,
         48,
         82,
-        51
+        61,
+        59
       ]
     },
     {
@@ -4622,42 +4622,41 @@
       "role": "Technology exporters",
       "timelines": {
         "1w": {
-          "changePct": 0.5,
-          "startPrice": 29015.85,
-          "endPrice": 29161.45,
+          "changePct": 1.01,
+          "startPrice": 28724.75,
+          "endPrice": 29014.75,
           "points": [
-            63,
             36,
             18,
             36,
             82,
-            76
+            76,
+            62
           ]
         },
         "2w": {
-          "changePct": 6.91,
-          "startPrice": 27276.45,
-          "endPrice": 29161.45,
+          "changePct": 3.85,
+          "startPrice": 27939.15,
+          "endPrice": 29014.75,
           "points": [
+            35,
+            21,
             18,
-            40,
-            27,
-            24,
-            42,
-            75,
-            66,
-            59,
-            65,
+            38,
+            74,
+            64,
+            57,
+            64,
             82,
-            80
+            80,
+            74
           ]
         },
         "4w": {
-          "changePct": 5.79,
-          "startPrice": 27566.7,
-          "endPrice": 29161.45,
+          "changePct": 6.16,
+          "startPrice": 27330.85,
+          "endPrice": 29014.75,
           "points": [
-            51,
             47,
             41,
             28,
@@ -4674,15 +4673,15 @@
             69,
             73,
             82,
-            81
+            81,
+            78
           ]
         }
       },
-      "changePct": 5.79,
-      "startPrice": 27566.7,
-      "endPrice": 29161.45,
+      "changePct": 6.16,
+      "startPrice": 27330.85,
+      "endPrice": 29014.75,
       "points": [
-        51,
         47,
         41,
         28,
@@ -4699,7 +4698,8 @@
         69,
         73,
         82,
-        81
+        81,
+        78
       ]
     },
     {
@@ -4709,22 +4709,22 @@
       "role": "Mobility and manufacturing",
       "timelines": {
         "1w": {
-          "changePct": -0.26,
+          "changePct": 0.1,
           "startPrice": 26981.5,
-          "endPrice": 26910.35,
+          "endPrice": 27008.25,
           "points": [
             68,
             18,
             29,
             44,
             82,
-            60
+            71
           ]
         },
         "2w": {
-          "changePct": -1.62,
+          "changePct": -1.26,
           "startPrice": 27353.95,
-          "endPrice": 26910.35,
+          "endPrice": 27008.25,
           "points": [
             82,
             81,
@@ -4736,13 +4736,13 @@
             26,
             35,
             62,
-            47
+            55
           ]
         },
         "4w": {
-          "changePct": 1.99,
+          "changePct": 2.36,
           "startPrice": 26384.35,
-          "endPrice": 26910.35,
+          "endPrice": 27008.25,
           "points": [
             18,
             57,
@@ -4761,13 +4761,13 @@
             35,
             43,
             65,
-            53
+            59
           ]
         }
       },
-      "changePct": 1.99,
+      "changePct": 2.36,
       "startPrice": 26384.35,
-      "endPrice": 26910.35,
+      "endPrice": 27008.25,
       "points": [
         18,
         57,
@@ -4786,7 +4786,7 @@
         35,
         43,
         65,
-        53
+        59
       ]
     }
   ]
