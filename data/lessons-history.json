@@ -1,6 +1,17 @@
 {
-  "updatedAt": "2026-08-03T06:41:46.078Z",
+  "updatedAt": "2026-08-04T06:07:49.330Z",
   "lessons": [
+    {
+      "source": "live",
+      "title": "India's Nifty 50 opens lower as new closing mechanism-led surge unwinds",
+      "outlet": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOYkczSk9HZlhtQlVJTFBrN1RZVFBheWlNNThaNnpGRXJvSk1aTFJGalRSOExZelRGTC1GZkRNaks5eDlvQVhJa1NIMEN0WjdCWWM5Q25UQVAyLTRvaUlNNk1xeDZnSHJwUU44alZldVptZHZ1ODJHYnpBbmJ2SVQ5VEROWDQ1YzZhWmxFREE3aFV3VXd6S1ljRGlWWklqRUwzVUgtcHpnaGlEMWZZbklIZFM4YWVoUnM?oc=5",
+      "date": "Tue, 04 Aug 2026 02:47:00 GMT",
+      "quote": "The lesson is rarely in the noise; it is in what the market chose to reprice.",
+      "lesson": "Use yesterday's market news as a question, not an instruction. Ask what changed, whether it is temporary, and whether the price has already reacted before you act.",
+      "lessonDate": "2026-08-04",
+      "savedAt": "2026-08-04T06:07:49.330Z"
+    },
     {
       "source": "live",
       "title": "Indian stocks rise on Brent dip, shock-free earnings season",
