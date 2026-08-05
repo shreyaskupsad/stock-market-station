@@ -1,6 +1,17 @@
 {
-  "updatedAt": "2026-08-04T06:07:49.330Z",
+  "updatedAt": "2026-08-05T06:04:25.175Z",
   "lessons": [
+    {
+      "source": "live",
+      "title": "India's Nifty flat, Sensex holds gains after RBI rate pause",
+      "outlet": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQVVdvczY0a3k0cFBWYWNRLXVWTUZudDE4Z1I3TG5lSWxLQUx4aHkyMkcxY01aYlk5V2hVMUo0cVRUOG40b2JXYW5kWjFBdXRiYTJFWmt4enA3TTZEYzNLR0tyblpsZzFrVk9SZTd2c3VaZjFCcGppYThwaDE2NTVZRm5fMkVhS180VllpSEhObG9tVWxHM3Y2RXFhb2F3elkxa21nWktHYw?oc=5",
+      "date": "Wed, 05 Aug 2026 02:03:00 GMT",
+      "quote": "The lesson is rarely in the noise; it is in what the market chose to reprice.",
+      "lesson": "Use yesterday's market news as a question, not an instruction. Ask what changed, whether it is temporary, and whether the price has already reacted before you act.",
+      "lessonDate": "2026-08-05",
+      "savedAt": "2026-08-05T06:04:25.175Z"
+    },
     {
       "source": "live",
       "title": "India's Nifty 50 opens lower as new closing mechanism-led surge unwinds",
