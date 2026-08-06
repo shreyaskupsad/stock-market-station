@@ -1,6 +1,17 @@
 {
-  "updatedAt": "2026-08-05T06:04:25.175Z",
+  "updatedAt": "2026-08-06T06:08:05.736Z",
   "lessons": [
+    {
+      "source": "live",
+      "title": "Indian shares muted as weekly expiry sets stage for Sensex swings",
+      "outlet": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQbXVDUWUzWmlqS09tY3VqRWhJVE8wQUYzUUxHaVNhQWp5NUJIQWFIc19hNXR3TXZjM3dTaFdIeGJkWUtlT05RbDJJdmR3YmduNl9XY3phU0VPNVl3M2xFbXNUM1lUREJZQ0pOWkpJSmp5NkVOTUREdi1IREtPMzhYQlB2a1hVN2t1SDBWb0gwUFBONjZkMElmcTRmODE4YzY2cktyc2xfcWU?oc=5",
+      "date": "Thu, 06 Aug 2026 02:43:00 GMT",
+      "quote": "The lesson is rarely in the noise; it is in what the market chose to reprice.",
+      "lesson": "Use yesterday's market news as a question, not an instruction. Ask what changed, whether it is temporary, and whether the price has already reacted before you act.",
+      "lessonDate": "2026-08-06",
+      "savedAt": "2026-08-06T06:08:05.736Z"
+    },
     {
       "source": "live",
       "title": "India's Nifty flat, Sensex holds gains after RBI rate pause",
